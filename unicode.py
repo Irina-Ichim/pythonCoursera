@@ -11,22 +11,22 @@ def obtener_valor_unicode(char):
     unicode_value = ord(char)
     return unicode_value
 
-"""
-Este ejemplo muestra cómo convertir un valor Unicode en un carácter en Python.
 
-Parameters:
-    unicode_value (int): El valor Unicode que deseas convertir en un carácter.
+#Este ejemplo muestra cómo convertir un valor Unicode en un carácter en Python.
 
-Returns:
-    str: El carácter correspondiente al valor Unicode.
-"""
-def convertir_a_caracter(unicode_value):
-    char = chr(unicode_value)
-    return char
+#Parameters:
+ #   unicode_value (int): El valor Unicode que deseas convertir en un carácter.
 
-"""
-Este ejemplo muestra cómo comparar cadenas alfabéticamente utilizando valores Unicode en Python.
-"""
+#Returns:
+ #   str: El carácter correspondiente al valor Unicode.
+
+#def convertir_a_caracter(unicode_value):
+  #  char = chr(unicode_value)
+  #  return char
+
+
+# Este ejemplo muestra cómo comparar cadenas alfabéticamente utilizando valores Unicode en Python.
+
 def comparar_cadenas_alfabeticamente(str1, str2):
     if str1 < str2:
         return f"{str1} viene antes de {str2} alfabéticamente."
