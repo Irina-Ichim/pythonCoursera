@@ -29,3 +29,13 @@ print("\n" + "-" * 20 + "\n")  # Separador
 ejemplo_for()
 print("\n" + "-" * 20 + "\n")  # Separador
 ejemplo_for_con_lista()
+
+
+for y in range(3):
+    print(y)
+
+for y in range(2, 7):
+    print(y)
+
+for z in range(1, 9, 2):
+    print(z)
