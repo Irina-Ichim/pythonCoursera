@@ -39,3 +39,4 @@ for y in range(2, 7):
 
 for z in range(1, 9, 2):
     print(z)
+
