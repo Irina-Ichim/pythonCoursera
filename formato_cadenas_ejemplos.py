@@ -34,3 +34,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    tiempo = "Rainfall"
+    print(tiempo[:4])
