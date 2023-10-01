@@ -1,6 +1,8 @@
 '''
 Este script demuestra el uso de diccionarios en Python.
-Crea un diccionario vacío y luego realiza varias operaciones, como agregar, modificar y eliminar elementos.
+Crea un diccionario vacío, luego realiza varias operaciones: agregar, modificar 
+y eliminar elementos.
+
 '''
 
 w = {}
