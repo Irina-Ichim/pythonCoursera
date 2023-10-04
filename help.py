@@ -17,3 +17,5 @@ def saludar():
 
 print("\n=== Ayuda para la función saludar ===")
 help(saludar)
+
+help("")
