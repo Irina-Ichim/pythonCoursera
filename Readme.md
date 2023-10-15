@@ -18,6 +18,10 @@ El archivo `modulo.py` explica el operador de módulo (%) en Python y su funció
 
 El proyecto también incluye otros ejemplos simples de operaciones matemáticas, impresión de mensajes y determinación de tipos de datos utilizando la función `type()`. Tambien he agregado ejemplos de strings, loops, operadores, methodos.
 
+## Contenido 📚
+
+En esta sección, encontrarás archivos relacionados con strings, tuplas, métodos avanzados, bucles anidados, diccionarios, etc.
+
 ## Instrucciones de Uso 🚀
 
 Para ejecutar estos ejemplos, simplemente abre cada archivo `.py` en tu entorno de desarrollo de Python y ejecuta el código. Asegúrate de tener Python instalado en tu sistema.
