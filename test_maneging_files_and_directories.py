@@ -62,3 +62,8 @@ def parent_directory():
   return os.path.abspath(relative_parent)
 
 print(parent_directory())
+
+# Importante 
+# os.pardir es una cadena que representa el nombre especial del directorio padre en la mayoría de los sistemas de archivos.
+# En la mayoría de los sistemas, se representa simplemente como "..". 
+# Se utiliza comúnmente en programación para referirse al directorio padre de un directorio actual.
