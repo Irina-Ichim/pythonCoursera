@@ -1,0 +1,33 @@
+^: Representa el inicio de la cadena. Si colocas ^ al principio de tu expresión regular, esta solo hará coincidir el patrón si se encuentra al comienzo de la cadena de texto.
+
+[a-z]: Define un conjunto de caracteres que coincide con una letra minúscula, en este caso, de la "a" a la "z". Puedes ajustar este conjunto para incluir otros rangos de caracteres, como [a-zA-Z] para letras mayúsculas y minúsculas.
+
+[a-zA-Z0-9]: Define un conjunto de caracteres que coincide con letras mayúsculas, minúsculas y dígitos numéricos.
+
+.*: Esto representa cualquier número de cualquier carácter en la cadena. El punto . coincide con cualquier carácter, y el asterisco * significa "cero o más repeticiones".
+
+[.!?]: Define un conjunto de caracteres que coincide con un punto, una exclamación o un signo de interrogación.
+
+Mas avanzados:
+
+Agrupación y Captura: Puedes usar paréntesis para agrupar patrones y capturar subcadenas coincidentes. Esto te permite extraer información específica de una coincidencia.
+
+Cuantificadores: Los cuantificadores, como *, +, ?, {n}, {m,n}, permiten especificar cuántas veces se debe repetir un elemento en un patrón. Por ejemplo, a{2,4} coincidirá con "aa", "aaa" y "aaaa".
+
+Caracteres de Escape y Metacaracteres: Algunos caracteres, como *, +, ?, (, [, deben escaparse con una barra invertida \ para que se traten literalmente.
+
+Grupos No Capturadores: Puedes usar (?: ... ) para crear grupos que no capturan la subcadena coincidente. Esto es útil cuando deseas agrupar elementos pero no necesitas capturarlos.
+
+Lookahead y Lookbehind: Estas son construcciones avanzadas que te permiten buscar patrones solo si están precedidos o seguidos por otro patrón. Por ejemplo, (?<=@)\w+ buscará una palabra si está precedida por el símbolo "@".
+
+Condiciones: Las expresiones regulares avanzadas pueden incluir condiciones que te permiten buscar patrones basados en una condición lógica, como (?(condición)verdadero|falso).
+
+Recursión: En algunos lenguajes y bibliotecas, puedes usar expresiones regulares recursivas para buscar patrones anidados o estructuras complejas.
+
+Modificadores y Opciones: Puedes configurar opciones o modificadores en tu expresión regular para cambiar su comportamiento, como hacer que la búsqueda sea insensible a mayúsculas y minúsculas.
+
+Búsquedas Longest Match: Algunas implementaciones de expresiones regulares permiten buscar la coincidencia más larga en lugar de la más corta.
+
+Substitución de Texto: Las expresiones regulares avanzadas se utilizan para reemplazar texto. Puedes usar patrones para buscar y reemplazar subcadenas específicas en un texto.
+
+Validación Específica: Las expresiones regulares pueden usarse para validar datos específicos, como direcciones de correo electrónico válidas, direcciones IP válidas o formatos de fechas específicos.
