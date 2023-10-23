@@ -20,7 +20,7 @@ El proyecto también incluye otros ejemplos simples de operaciones matemáticas,
 
 ## Contenido 📚
 
-En esta sección, encontrarás archivos relacionados con strings, tuplas, métodos avanzados, bucles anidados, diccionarios, etc.
+En esta sección, encontrarás archivos relacionados con strings, tuplas, métodos avanzados, bucles anidados, diccionarios, csv y su manipulacion, regex o expresiones regulares.
 
 ## Instrucciones de Uso 🚀
 
