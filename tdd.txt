@@ -1,0 +1,23 @@
+Test-Driven Development (TDD) 
+Es una metodología de desarrollo de software que se basa en la creación de pruebas automatizadas antes de escribir
+el código real de la aplicación. El proceso de TDD se puede resumir en los siguientes pasos:
+
+ **Escribir una Prueba (Test):** En primer lugar, se escribe una prueba que describa el comportamiento deseado de una parte del software.
+  Esta prueba inicial a menudo falla ya que el código relacionado aún no se ha implementado.
+
+ **Escribir el Código Mínimo para Pasar la Prueba:** Luego, se escribe la cantidad mínima de código necesaria para que la prueba pase.
+  No es necesario que el código sea óptimo o completo en esta etapa.
+
+ **Ejecutar la Prueba:** Se ejecuta la prueba recién escrita junto con todas las pruebas existentes en el sistema. 
+ Si la prueba nueva pasa y las pruebas existentes siguen pasando, significa que el nuevo código no ha roto ninguna funcionalidad existente.
+
+ **Refactorización (Refactoring):** Una vez que la prueba ha pasado con éxito, se puede refactorizar el código.
+  Esto implica mejorar la calidad y estructura del código sin cambiar su comportamiento externo.
+
+ **Repetir el Proceso:** Se repiten estos pasos una y otra vez, escribiendo pruebas adicionales, implementando código y refactorizando.
+  Esto se hace iterativamente para construir la funcionalidad requerida.
+
+El enfoque central del TDD es garantizar que todas las partes del software estén respaldadas por pruebas automatizadas,
+lo que proporciona una mayor confianza en la calidad del código y facilita la detección temprana de errores.
+El TDD es ampliamente utilizado en la comunidad de desarrollo de software como una práctica que promueve la robustez
+y mantenibilidad del código.
