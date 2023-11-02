@@ -1,0 +1,41 @@
+Basic Linux Commands Cheat-Sheet
+
+Managing files and directories:
+
+1. `cd directory`: Cambia el directorio de trabajo actual al especificado.
+2. `pwd`: Imprime el directorio de trabajo actual.
+3. `ls`: Lista el contenido del directorio actual.
+4. `ls directory`: Lista el contenido del directorio especificado.
+5. `ls -l`: Lista información adicional sobre el contenido del directorio.
+6. `ls -a`: Lista todos los archivos, incluyendo los ocultos.
+7. `ls -la`: Aplica las banderas `-l` y `-a`.
+8. `mkdir directory`: Crea un directorio con el nombre especificado.
+9. `rmdir directory`: Borra el directorio con el nombre especificado (si está vacío).
+10. `cp old_name new_name`: Copia `old_name` a `new_name`.
+11. `mv old_name new_name`: Mueve `old_name` a `new_name`.
+12. `touch file_name`: Crea un archivo vacío o actualiza la hora de modificación si existe.
+13. `chmod modifiers files`: Cambia los permisos de los archivos según los modificadores proporcionados (por ejemplo, `+x` para hacerlo ejecutable).
+14. `chown user files`: Cambia el propietario de los archivos al usuario especificado.
+15. `chgrp group files`: Cambia el grupo de los archivos al grupo especificado.
+
+Operating with the content of files:
+
+16. `cat file`: Muestra el contenido del archivo en la salida estándar.
+17. `wc file`: Cuenta la cantidad de caracteres, palabras y líneas en el archivo dado; también puede contar los mismos valores de lo que recibe a través de stdin.
+18. `file file`: Imprime el tipo del archivo dado, según lo reconocido por el sistema operativo.
+19. `head file`: Muestra las primeras 10 líneas del archivo especificado.
+20. `tail file`: Muestra las últimas 10 líneas del archivo especificado.
+21. `less file`: Desplaza el contenido del archivo dado (presiona "q" para salir).
+22. `sort file`: Ordena las líneas del archivo alfabéticamente.
+23. `cut -dseparator -ffields file`: Para cada línea en el archivo dado, divide la línea según el separador especificado e imprime los campos dados (empezando desde 1).
+
+Additional commands:
+
+24. `echo "message"`: Imprime el mensaje en la salida estándar.
+25. `date`: Imprime la fecha actual.
+26. `who`: Imprime la lista de usuarios actualmente conectados a la computadora.
+27. `man command`: Muestra la página de manual del comando dado; las páginas de manual contienen información sobre cómo usar cada comando (presiona "q" para salir).
+28. `uptime`: Muestra cuánto tiempo ha estado funcionando la computadora.
+29. `free`: Muestra la cantidad de memoria no utilizada en el sistema actual.
+
+Espero que esta información te sea útil. Si tienes alguna pregunta o necesitas más detalles sobre alguno de estos comandos, no dudes en preguntar.
