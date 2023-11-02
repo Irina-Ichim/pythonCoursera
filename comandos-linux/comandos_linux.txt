@@ -38,4 +38,4 @@ Additional commands:
 28. `uptime`: Muestra cuánto tiempo ha estado funcionando la computadora.
 29. `free`: Muestra la cantidad de memoria no utilizada en el sistema actual.
 
-Espero que esta información te sea útil. Si tienes alguna pregunta o necesitas más detalles sobre alguno de estos comandos, no dudes en preguntar.
+

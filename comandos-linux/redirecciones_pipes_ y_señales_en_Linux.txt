@@ -1,0 +1,24 @@
+Redirections, Pipes and Signals
+
+Managing streams:
+
+1. `command > file`: Redirige la salida estándar y sobrescribe el archivo.
+2. `command >> file`: Redirige la salida estándar y agrega al archivo.
+3. `command < file`: Redirige la entrada estándar desde el archivo.
+4. `command 2> file`: Redirige el error estándar al archivo.
+5. `command1 | command2`: Conecta la salida de `command1` con la entrada de `command2`.
+
+Operating with processes:
+
+6. `ps`: Lista los procesos en ejecución en la terminal actual para el usuario actual.
+7. `ps ax`: Lista todos los procesos en ejecución actualmente para todos los usuarios.
+8. `ps e`: Muestra el entorno de los procesos listados.
+9. `kill PID`: Envía la señal SIGTERM al proceso identificado por PID.
+10. `fg`: Hace que un trabajo detenido o en segundo plano vuelva al primer plano.
+11. `bg`: Hace que un trabajo detenido pase al segundo plano.
+12. `jobs`: Lista los trabajos en ejecución o detenidos.
+13. `top`: Muestra los procesos que actualmente utilizan más tiempo de CPU (presiona "q" para salir).
+
+Estos comandos son útiles cuando trabajas con procesos y quieres gestionar las entradas, salidas y señales de los programas en un entorno Linux.
+
+
