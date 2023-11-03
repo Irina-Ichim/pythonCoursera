@@ -1,0 +1,19 @@
+# Pruebas Integradas (Integration Tests):
+# Las pruebas integradas verifican si los distintos componentes o módulos de un sistema funcionan correctamente cuando se combinan. Estas pruebas evalúan la interacción entre los componentes y aseguran que funcionen de manera conjunta. Ayudan a identificar problemas de comunicación y de integración.
+
+# Pruebas de Entorno (Environment Tests):
+# Las pruebas de entorno verifican el comportamiento del software en diferentes entornos, como sistemas operativos, navegadores web o configuraciones de hardware. Estas pruebas aseguran que la aplicación se ejecute correctamente en varios contextos.
+
+# Pruebas de Regresión (Regression Tests):
+# Las pruebas de regresión se utilizan para verificar que las nuevas modificaciones o actualizaciones de un sistema no han introducido errores en el código existente. Se ejecutan pruebas previamente exitosas nuevamente para garantizar que sigan funcionando.
+
+# Pruebas de Humo (Smoke Tests):
+# Las pruebas de humo son pruebas iniciales que verifican las funciones críticas de una aplicación sin profundizar en detalles. Su objetivo es identificar problemas graves antes de realizar pruebas más exhaustivas. Son pruebas rápidas y superficiales.
+
+# Pruebas de Carga (Load Tests):
+# Las pruebas de carga evalúan cómo se comporta una aplicación bajo presión o cargas de trabajo pesadas. Determinan la capacidad y el rendimiento del sistema, identificando cuellos de botella y problemas de escalabilidad.
+
+# Conjunto de Pruebas (Test Suite):
+# Un conjunto de pruebas es un grupo de pruebas individuales que se ejecutan de manera conjunta. Estas pruebas pueden cubrir distintos aspectos del software, como funcionalidad, rendimiento, seguridad, etc. Los conjuntos de pruebas se utilizan para evaluar completamente una aplicación.
+
+# Aunque estos son solo algunos tipos de pruebas, son esenciales para garantizar la calidad y el rendimiento del software en diferentes situaciones y contextos.
