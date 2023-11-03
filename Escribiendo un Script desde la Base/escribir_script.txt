@@ -1,0 +1,15 @@
+# Escribir un Script desde Cero
+
+El proceso general que se debe seguir al abordar un proyecto de codificación, ya sea escribir un pequeño script para automatizar una tarea
+o un proyecto más grande:
+
+_ Comprender completamente la declaración del problema: Asegúrate de que comprendes completamente lo que se necesita hacer
+  y cuáles son las entradas y salidas del programa que debes escribir.
+_ Investigación: Investiga cómo puedes abordar el problema utilizando las herramientas proporcionadas por la biblioteca estándar de Python 
+  o módulos externos. Evita reinventar la rueda, ya que es probable que otros hayan resuelto problemas similares antes.
+  Examina la documentación y ejemplos relacionados con los módulos, clases y funciones que necesitas.
+_ Planificación: Piensa en qué tipos de datos son útiles, el orden de operaciones necesario y cómo todas las piezas se unen para
+  formar la solución. Puedes escribir un plan para referencia rápida, especialmente si el problema es complejo.
+  La planificación te ayuda a identificar problemas potenciales en tu diseño.
+_Escritura del código: Una vez que tengas un plan claro, comienza a escribir el código. Esto incluye verificar que el código haga
+  lo que se supone que debe hacer, probando manualmente y agregando pruebas automáticas.
