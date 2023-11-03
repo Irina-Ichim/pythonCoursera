@@ -1,0 +1,22 @@
+Varios conceptos y comandos relacionados con Bash scripting y el entorno de línea de comandos
+
+
+1. `ps`: Este comando se utiliza para listar los procesos en ejecución en el sistema. Proporciona información detallada sobre los procesos, como su identificador de proceso (PID), uso de CPU y estado.
+
+2. `free`: El comando `free` muestra información sobre el uso de memoria en el sistema, incluyendo la memoria física y la memoria de intercambio (swap).
+
+3. `uptime`: Muestra el tiempo que ha estado funcionando el sistema desde su última reinicialización. También muestra la carga promedio del sistema en los últimos 1, 5 y 15 minutos.
+
+4. `$(date)`: Esta es una expansión de comandos que ejecuta el comando `date` y devuelve la fecha y hora actual. Puedes utilizar esta expansión para incrustar la fecha en scripts de Bash u otros comandos.
+
+5. `$ ./bash_sample.sh`: Esta es la forma de ejecutar un script Bash llamado "bash_sample.sh". El prefijo `./` indica que el script se encuentra en el directorio actual.
+
+6. Variables de entorno: En Bash, puedes definir variables de entorno para almacenar valores que pueden ser accedidos por comandos y scripts. Por ejemplo, `example=hello` crea una variable de entorno llamada "example" con el valor "hello". Puedes acceder a esta variable usando `$example`.
+
+7. `$line="--------------"`: Esta parece ser una asignación incorrecta de variable. Debería ser `$line="--------------"` para asignar el valor de guiones a la variable "line".
+
+8. Globs (`*`, `?`): Los caracteres `*` y `?` se utilizan para realizar coincidencias de patrones en nombres de archivos. `*` coincide con cualquier número de caracteres, mientras que `?` coincide con un solo carácter en nombres de archivos.
+
+Estos conceptos y comandos son fundamentales para trabajar con scripts de Bash y para comprender y administrar sistemas basados en Linux o Unix.
+
+Espero que esta explicación te sea útil.
