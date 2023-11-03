@@ -37,5 +37,6 @@
 #   - Python utiliza una sintaxis más legible con sangrías.
 # - **Python ofrece más flexibilidad y versatilidad para abordar condiciones específicas.**
 
+ #Un bloque condicional en Bash que comienza con 'if', el bloque se cierra con la palabra clave 'fi'. El 'fi' se utiliza para indicar el final de las declaraciones condicionales y es una parte fundamental de la sintaxis de control de flujo en Bash. Cuando usas 'if' para comenzar un bloque condicional en Bash, debes finalizar ese bloque con 'fi' para que el script funcione correctamente
 # Conclusión:
 # Tanto Bash como Python ofrecen la capacidad de ejecutar comandos basados en condiciones. La elección entre ellos depende de la complejidad de la tarea y de la preferencia del desarrollador. Python es conocido por su legibilidad y versatilidad, mientras que Bash se utiliza comúnmente para automatizar tareas de línea de comandos.
