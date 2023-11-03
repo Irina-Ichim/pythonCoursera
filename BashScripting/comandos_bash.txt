@@ -19,4 +19,4 @@ Varios conceptos y comandos relacionados con Bash scripting y el entorno de lín
 
 Estos conceptos y comandos son fundamentales para trabajar con scripts de Bash y para comprender y administrar sistemas basados en Linux o Unix.
 
-Espero que esta explicación te sea útil.
+
