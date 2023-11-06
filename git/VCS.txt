@@ -1,0 +1,16 @@
+Un sistema de control de versiones (VCS, por sus siglas en inglés) es una herramienta que se utiliza en el desarrollo de software
+y en la gestión de archivos para rastrear y controlar las diferentes versiones de un conjunto de archivos a lo largo del tiempo.
+
+Estas herramientas permiten a los desarrolladores, ingenieros y equipos de trabajo colaborar en proyectos, mantener un registro de cambios
+y realizar un seguimiento de las modificaciones realizadas en el código fuente, documentos y otros archivos.
+
+La gestión de cambios en TI es esencial, ya que los administradores deben rastrear qué se ha modificado y cuándo.
+Esto es crucial para solucionar problemas y garantizar que futuros especialistas comprendan la infraestructura.
+Además, permite deshacer cambios si es necesario, minimizando errores humanos.
+
+En resumen, antes de utilizar herramientas de control de versiones, las personas solían realizar copias manuales de sus proyectos para
+mantener un historial de cambios. 
+
+El principio detrás del control de versiones es el mismo, que es rastrear los cambios en los archivos, sin importar si se trata de código, imágenes, configuraciones u otros tipos de archivos. El control de versiones, como Git,
+proporciona una forma más eficiente y detallada de realizar un seguimiento de cambios, colaborar con otros y revertir cambios.
+
