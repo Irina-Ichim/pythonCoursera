@@ -1,0 +1,27 @@
+En Git, un proyecto consta de tres secciones clave: el "Directorio de Git," el "Árbol de Trabajo" y el "Área de Preparación."
+
+- El "Directorio de Git" almacena el historial completo del proyecto y sus configuraciones.
+
+- El "Árbol de Trabajo" contiene la copia actual de los archivos con los que estás trabajando.
+
+- El "Área de Preparación" es una etapa intermedia donde se organizan los cambios antes de la confirmación.
+
+- Los archivos pueden estar en tres estados principales:
+  1. **Modificado**: Significa que se han realizado cambios en un archivo que aún no se han confirmado.
+  2. **Preparado**: Cuando un archivo se coloca en el "Área de Preparación" (etapa), está listo para ser confirmado en el próximo paso.
+  3. **Confirmado**: La confirmación almacena una instantánea del estado actual del proyecto en el "Directorio de Git."
+
+- Los cambios se siguen generalmente en este orden: modificación de archivos en el "Árbol de Trabajo," etapa de los cambios usando `git add` y,
+ finalmente, confirmación de los cambios con `git commit`.
+
+- El comando `git status` se utiliza para verificar el estado actual de los archivos en el "Árbol de Trabajo" y el "Área de Preparación."
+
+- Git mantiene un registro de las instantáneas de tu proyecto a lo largo del tiempo, lo que te permite rastrear y recuperar versiones 
+anteriores si es necesario.
+
+- El "Directorio de Git" almacena todo el historial y la configuración, mientras que el "Árbol de Trabajo" refleja el estado actual del 
+proyecto en tu máquina.
+
+- Git registra una nueva instantánea cada vez que realizas una confirmación.
+
+Este flujo de trabajo te permite controlar y rastrear los cambios en tu proyecto de manera eficiente.
