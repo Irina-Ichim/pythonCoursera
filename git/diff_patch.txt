@@ -1,0 +1,13 @@
+Uso de herramientas como "diff" y "patch" para gestionar cambios en scripts y colaborar en proyectos de programación.
+Aquí tienes un resumen:
+
+"diff" es una herramienta que compara dos archivos y muestra las diferencias entre ellos. Estas diferencias se presentan en un formato
+que indica qué líneas se agregaron, eliminaron o cambiaron. Puedes utilizar el comando "diff -u" para generar un archivo "diff" que incluye 
+contexto adicional para entender los cambios.
+
+Un archivo "diff" es un archivo que contiene información sobre las diferencias entre dos versiones de un archivo. Por lo general, se utiliza 
+el formato unificado ("-u") para facilitar la comprensión de los cambios.
+
+"patch" es una herramienta que toma un archivo "diff" y aplica los cambios al archivo original. Puedes utilizar el comando "patch" pasándole 
+el archivo que deseas modificar y el archivo "diff" como entrada estándar para aplicar los cambios.
+Esto es útil para colaborar en proyectos de programación y mantener un registro de cambios en el código.
