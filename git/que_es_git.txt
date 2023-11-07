@@ -1,0 +1,32 @@
+Git es un sistema de control de versiones (VCS) creado en 2005 por Linus Torvalds, el desarrollador que comenzó el kernel de Linux. 
+Linus originalmente creó Git para ayudar a gestionar la tarea de desarrollar el kernel de Linux, que era difícil debido a la colaboración
+de muchos programadores geográficamente distribuidos que estaban escribiendo una gran cantidad de código.
+Linus tenía requisitos específicos para el funcionamiento y el rendimiento del sistema que no estaban siendo satisfechos por las herramientas 
+de VCS disponibles en ese momento, por lo que decidió escribir el suyo propio. Git es ahora uno de los sistemas de control de versiones
+más populares y se utiliza en millones de proyectos.
+
+A diferencia de algunos sistemas de control de versiones que se centran en un único servidor centralizado,
+Git tiene una arquitectura distribuida. Esto significa que cada persona que contribuye a un repositorio tiene una copia completa
+del repositorio en su propia máquina de desarrollo. Los colaboradores pueden compartir y obtener cambios que otros han realizado según
+sea necesario. Y debido a que los repositorios están en la misma máquina que se utiliza para crear los archivos, la mayoría de las
+operaciones se pueden realizar muy rápidamente. Si deseas colaborar con otros, generalmente tiene sentido configurar un repositorio
+en un servidor que actúe como un centro al que todos puedan interactuar. Pero Git no depende de ningún tipo de servidor centralizado 
+para proporcionar organización a su flujo de trabajo. Git puede funcionar como un programa independiente, como un servidor y como un cliente.
+Esto significa que puedes usar Git en una sola máquina sin tener una conexión de red, o puedes usarlo como servidor en una máquina donde
+deseas alojar tu repositorio, y luego puedes usar Git como cliente para acceder al repositorio desde otra máquina o incluso la misma.
+
+Los clientes de Git pueden comunicarse con los servidores de Git a través de la red utilizando HTTP, SSH o el protocolo especial de Git.
+Si deseas obtener más información sobre la arquitectura de Git o los protocolos de comunicación, puedes encontrar un enlace para obtener más
+información en la próxima lectura. Por lo tanto, puedes usar Git con o sin una conexión de red. Puedes usarlo para proyectos pequeños con
+un solo desarrollador o para proyectos enormes con miles de contribuyentes. Puedes usarlo para realizar un seguimiento del trabajo privado
+que puedas mantener para ti mismo o puedes compartir tu trabajo con otros alojándolo en servidores públicos como Github, Gitlab u otros.
+¿Estás comenzando a ver cuán poderoso puede ser Git?
+
+Cuando busques información en línea, es posible que notes que el sitio web oficial de Git se llama git-scm.com y te preguntes qué significa 
+"SCM" al final. En realidad, es otro acrónimo similar a VCS. Significa "Source Control Management" o "Gestión de Control de Origen".
+Aunque ambos términos significan lo mismo, generalmente preferimos VCS, ya que, como mencionamos anteriormente, estos sistemas pueden
+utilizarse para almacenar mucho más que solo código fuente. En este curso elegimos Git por su popularidad, soporte multiplataforma y sólido
+conjunto de funciones. Sin embargo, como ocurre con la mayoría de las cosas en el mundo de la informática, existen muchas otras herramientas
+que se pueden utilizar para llevar a cabo la misma tarea. Hay otros programas de VCS como Subversion o Mercurial.
+Si crees que otro VCS podría satisfacer mejor tus necesidades, siéntete libre de experimentar con alternativas.
+Pero antes de sumergirnos en cómo usar Git, pasemos por otro cuestionario rápido para comprobar si todo hasta ahora tiene sentido.
