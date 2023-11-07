@@ -1,0 +1,32 @@
+Git Directory (.git directory):
+
+El "Git Directory" es una parte fundamental de un repositorio Git. Este directorio se encuentra oculto en la raíz del proyecto y generalmente
+se nombra como .git. Contiene toda la información necesaria para rastrear cambios en los archivos del proyecto, como el historial de 
+confirmaciones, las ramas, las etiquetas y la configuración del repositorio.
+El "Git Directory" almacena todos los datos del control de versiones y registra la historia del proyecto.
+Los usuarios no suelen interactuar directamente con el "Git Directory," ya que está diseñado para ser gestionado por Git de forma automática.
+Sin embargo, es esencial para que Git funcione correctamente.
+
+
+Working Tree (Árbol de trabajo):
+
+El "Working Tree" (también conocido como "Working Directory" o "Árbol de trabajo") es la copia de los archivos del proyecto en tu sistema local
+Es la versión de los archivos con la que estás trabajando y que puedes modificar.
+Los archivos en el "Working Tree" reflejan el estado actual del proyecto y pueden ser editados, creados o eliminados por el usuario.
+Los cambios realizados en el "Working Tree" se pueden preparar y confirmar en el repositorio Git. Hasta que no se confirmen, los cambios no 
+forman parte del historial de versiones del proyecto.
+
+
+Stage Area (Área de preparación):
+
+El "Stage Area," también llamado "Staging Area" o "Index," es una parte intermedia entre el "Working Tree" y el "Git Directory."
+Los archivos en el "Working Tree" pueden ser añadidos al "Stage Area" utilizando el comando git add. Al hacerlo, se indican los cambios que 
+deseas incluir en la próxima confirmación.
+La "Stage Area" actúa como una especie de zona de preparación para las confirmaciones. Te permite revisar los cambios antes de confirmarlos y 
+realizar confirmaciones parciales si es necesario.
+Una vez que los cambios están en la "Stage Area," puedes usar el comando git commit para registrarlos en el "Git Directory" y, finalmente, 
+en el historial del proyecto.
+
+En resumen, el "Git Directory" es donde se almacena la historia y configuración del repositorio, el "Working Tree" es la copia de trabajo 
+actual de los archivos en tu sistema local y la "Stage Area" es una zona intermedia donde se preparan los cambios para la confirmación. 
+Estos conceptos son fundamentales para comprender cómo funciona Git y cómo se gestionan los cambios en un proyecto.

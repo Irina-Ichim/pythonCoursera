@@ -1,0 +1,55 @@
+Comandos básicos de Git
+
+En Git, el directorio Git (también conocido como el directorio .git) es donde se almacenan todos los datos de control de versiones
+y configuración, incluido el historial de confirmaciones, las ramas y las etiquetas. Básicamente, contiene toda la historia del proyecto.
+Por otro lado, el árbol de trabajo es el directorio en tu máquina local donde editas, creas y organizas tus archivos.
+Contiene las versiones actuales de los archivos con los que estás trabajando.
+
+Git es un sistema de control de versiones muy poderoso. A continuación, se muestran algunos de los comandos más importantes para comenzar a trabajar con Git.
+
+1. `git config`
+   - Configura opciones de Git a nivel global, como el nombre y correo electrónico del usuario.
+   - Ejemplo: `git config --global user.name "Tu Nombre"`
+   - Ejemplo: `git config --global user.email "tu@email.com"`
+
+2. `git init`
+   - Inicializa un nuevo repositorio de Git en el directorio actual.
+   - Ejemplo: `git init`
+
+3. `git clone`
+   - Clona un repositorio remoto en tu máquina local.
+   - Ejemplo: `git clone https://github.com/tuusuario/turepositorio.git`
+
+4. `git add`
+   - Agrega cambios al área de preparación (staging) para que se incluyan en el próximo commit.
+   - Ejemplo: `git add archivo.txt`
+
+5. `git commit`
+   - Crea un nuevo commit con los cambios en el área de preparación.
+   - Ejemplo: `git commit -m "Descripción del commit"`
+
+6. `git status`
+   - Muestra el estado actual del repositorio, incluyendo los cambios pendientes de commit.
+
+7. `git log`
+   - Muestra el historial de commits.
+   - Ejemplo: `git log`
+
+8. `git branch`
+   - Lista las ramas en el repositorio.
+   - Ejemplo: `git branch`
+
+9. `git checkout`
+   - Cambia a una rama o commit específico.
+   - Ejemplo: `git checkout mi_rama`
+   - Ejemplo: `git checkout abc123`
+
+10. `git pull`
+    - Descarga los cambios desde un repositorio remoto y los fusiona con tu rama local.
+    - Ejemplo: `git pull origin master`
+
+11. `git push`
+    - Sube tus cambios locales a un repositorio remoto.
+    - Ejemplo: `git push origin mi_rama`
+
+Estos son solo algunos de los comandos básicos de Git. Git ofrece muchas más funcionalidades y opciones que puedes explorar a medida que te vuelvas más familiarizado con la herramienta.
