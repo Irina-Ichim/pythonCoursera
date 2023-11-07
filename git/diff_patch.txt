@@ -11,3 +11,9 @@ el formato unificado ("-u") para facilitar la comprensión de los cambios.
 "patch" es una herramienta que toma un archivo "diff" y aplica los cambios al archivo original. Puedes utilizar el comando "patch" pasándole 
 el archivo que deseas modificar y el archivo "diff" como entrada estándar para aplicar los cambios.
 Esto es útil para colaborar en proyectos de programación y mantener un registro de cambios en el código.
+
+En resumen, en los tutoriales,  El comando "diff" se utiliza para encontrar las diferencias entre dos archivos. Se menciona que se puede usar
+con "diff -u" para comparar líneas que difieren en dos archivos y mostrar las diferencias lado a lado en la misma salida.
+El comando "patch" es útil para aplicar las diferencias de archivos. Se muestra un ejemplo en el que se comparan dos archivos y se guarda
+la comparación en un archivo ".diff", que luego se aplica al archivo original.
+También se menciona que hay otros comandos interesantes relacionados con "patch" y "diff", como "patch -p1" y "diff -r"
