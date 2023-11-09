@@ -1,0 +1,66 @@
+**Rebasing en Git: Una Explicación Detallada**
+
+El rebasing en Git es una técnica avanzada utilizada para cambiar la base de una rama, reorganizando la línea de tiempo de la historia del 
+proyecto. A continuación, se proporciona una explicación detallada de este proceso:
+
+### ¿Qué es Rebasing?
+
+Rebasing se refiere al acto de mover o cambiar la base común de una rama. En lugar de fusionar ramas con una nueva confirmación de fusión, 
+el rebasing altera la historia existente al aplicar los commits de una rama sobre la última confirmación de otra rama.
+
+### Propósito del Rebasing:
+
+1. **Mantenimiento de una Historia Lineal:** El rebasing ayuda a mantener una línea de tiempo de la historia del proyecto más lineal y fácil 
+de entender, ya que elimina commits de fusión adicionales.
+
+2. **Integración de Cambios de Forma Más Limpia:** Cuando deseas integrar los cambios de una rama en otra, el rebasing ofrece una forma más 
+limpia y ordenada de hacerlo, evitando la creación de commits de fusión.
+
+### Proceso de Rebasing:
+
+1. **Seleccionar la Rama Objetivo:** Elige la rama a la cual deseas aplicar los cambios. Comúnmente, esto implica seleccionar la última 
+confirmación de la rama que se utilizará como nueva base.
+
+2. **Ejecutar el Comando de Rebasing:** Utiliza el comando `git rebase` seguido de la rama objetivo. Por ejemplo, `git rebase master` 
+aplicará los cambios de la rama actual sobre la última confirmación de la rama `master`.
+
+3. **Manejar Conflictos si es Necesario:** Durante el rebasing, pueden ocurrir conflictos si los mismos archivos o líneas de código han 
+cambiado en ambas ramas. En estos casos, es necesario resolver los conflictos manualmente.
+
+4. **Finalizar el Rebasing:** Después de resolver cualquier conflicto, finaliza el rebasing con `git rebase --continue`. Este paso puede 
+repetirse según sea necesario.
+
+### Consideraciones Importantes:
+
+- **Precaución con Ramas Compartidas:** Debido a que el rebasing reescribe la historia, debe usarse con precaución en ramas compartidas, 
+ya que puede causar conflictos y confusiones en la historia del repositorio.
+
+- **Uso Responsable:** El rebasing es una técnica avanzada y debe usarse con responsabilidad. Puede ser más adecuado para ramas temporales o 
+feature branches que aún no se han compartido extensamente.
+
+### Conclusión:
+
+El rebasing en Git es una herramienta poderosa para mantener una historia de proyecto más limpia y comprensible. Al comprender cómo funciona 
+y cuándo aplicarlo de manera adecuada, los desarrolladores pueden aprovechar sus beneficios mientras mantienen la integridad y claridad del 
+historial del repositorio.
+
+Merging vs. Rebasing:
+Merging:
+
+Crea un nuevo commit de fusión, generando una historia de ramas divergente.
+Puede dificultar el seguimiento de cambios en la historia.
+
+Rebasing:
+Cambia la base de los commits, reorganizando la historia en una línea recta.
+Ayuda a mantener una historia de ramas más limpia y fácil de seguir.
+
+Cómo realizar un Rebase:
+Utiliza el comando git rebase seguido del nombre de la rama a la cual deseas cambiar la base.
+Git intenta aplicar tus commits sobre la última confirmación de la nueva base.
+
+Cuándo usar Rebase:
+Útil para mantener una historia de ramas limpia y fácil de seguir.
+Puede ser beneficioso al integrar cambios de la rama principal en una rama de función antes de fusionar.
+
+Eliminación de Ramas:
+Después de la fusión, explican cómo eliminar la rama de forma remota (git push --delete origin refactor) y local (git branch -d refactor).
