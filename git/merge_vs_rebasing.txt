@@ -1,0 +1,48 @@
+** "Merging vs. Rebasing y Buenas Prácticas en Git"**
+
+La diferencia entre fusionar (`merge`) y reorganizar (`rebase`) ramas, así como buenas prácticas al colaborar con Git. 
+
+---
+
+**Merging vs. Rebasing:**
+
+1. **Merging:**
+   - Creación de un nuevo commit de fusión al integrar cambios de una rama en otra.
+   - Puede generar una historia de ramas "divergente" y dificultar el seguimiento de cambios.
+
+2. **Rebasing:**
+   - Cambio de la base de los commits, replanteando la historia en una línea recta.
+   - Útil para mantener una historia de ramas más limpia y fácil de seguir.
+
+3. **Cómo Realizar un Rebase:**
+   - `git rebase <rama>` para cambiar la base de los commits a la última confirmación de la rama especificada.
+   - Se resuelven conflictos manualmente si es necesario.
+
+4. **Cuándo Usar Rebase:**
+   - Útil para mantener una historia de ramas lineal.
+   - Puede facilitar la integración de cambios de la rama principal en una rama de función antes de fusionar.
+
+**Ejemplos en el Video:**
+
+1. **Rebase para Fusionar Ramas:**
+   - Creación de una rama de características ("refactor") y rebase sobre la rama principal antes de fusionar.
+   - Uso de `git push --delete` y `git branch -d` para eliminar ramas local y remotamente.
+
+2. **Rebase para Mantener Historia Lineal:**
+   - Ejemplo de agregar una nueva verificación al script mientras se reorganizan los cambios de la rama principal.
+   - Resolución de conflictos manual durante el rebase para mantener la historia lineal.
+
+---
+
+**Buenas Prácticas y Consejos Finales:**
+
+1. **Linearidad del Historial:**
+   - Mantener la historia lineal ayuda en la depuración y seguimiento de cambios.
+
+2. **Uso Cauteloso de Rebase:**
+   - Poderosa herramienta, pero se debe tener cuidado al reescribir la historia, especialmente si se comparte con otros colaboradores.
+
+3. **Práctica y Revisión:**
+   - Se alienta a los espectadores a revisar y practicar los conceptos presentados para comprenderlos mejor.
+
+---
