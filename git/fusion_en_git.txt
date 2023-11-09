@@ -1,0 +1,37 @@
+Manejo de Conflictos de Fusión en Git
+
+1. Cambio en el Script:
+   - Se realiza un cambio en `all_checks.py` para hacer el código más claro.
+   - Se cambia el nombre del parámetro `min_absolute` a `min_gb` para indicar gigabytes.
+   - Se utiliza el nombre de los parámetros al llamar a la función para mayor claridad.
+
+2. Intento de Push:
+   - Se intenta realizar un "git push", pero falla debido a cambios en el repositorio remoto.
+   - Git no puede hacer un avance rápido (fast-forward) porque los cambios locales y remotos son divergentes.
+
+3. Git Pull:
+   - Se utiliza "git pull" para sincronizar la rama local con el repositorio remoto.
+   - Git intenta fusionar automáticamente los cambios locales y remotos en `all_checks.py`.
+   - Se produce un conflicto durante la fusión.
+
+4. Resolución de Conflictos:
+   - Git muestra los cambios en conflicto en `all_checks.py`.
+   - Se explica cómo resolver el conflicto editando el archivo.
+   - En este caso, se elige conservar los cambios locales y resolver el conflicto.
+
+5. Finalización de la Fusión:
+   - Se utiliza "git add" para agregar el archivo modificado (`all_checks.py`) al área de preparación.
+   - Se finaliza la fusión con "git commit".
+
+6. Éxito en el Push:
+   - Después de resolver el conflicto, se realiza un "git push" con éxito.
+
+7. Historial de Confirmaciones:
+   - Se muestra el historial de confirmaciones con "git log --graph --oneline".
+   - Destaca la fusión y las dos confirmaciones que causaron el conflicto.
+
+8. Consejos Finales:
+   - Se sugiere practicar la resolución de conflictos con dos copias del repositorio.
+   - Editar las mismas líneas de los mismos archivos para simular conflictos y mejorar las habilidades de resolución.
+
+
