@@ -1,0 +1,80 @@
+**Importancia del Token de Acceso Personal en GitHub**
+
+El uso del token de acceso personal en GitHub es crucial para mejorar la seguridad y simplificar las interacciones con repositorios remotos, 
+especialmente al trabajar desde la línea de comandos o al integrar GitHub con herramientas y servicios externos. Se detallan las razones clave
+para utilizar un token de acceso personal, según las instrucciones proporcionadas en el tutorial:
+
+1. **Seguridad Mejorada:**
+   - El token de acceso personal actúa como una alternativa más segura a la contraseña de GitHub.
+   - Evita la exposición de contraseñas en scripts, comandos de la línea de comandos y aplicaciones externas.
+
+2. **Operaciones Remotas:**
+   - Facilita operaciones comunes como `git clone`, `git push` y `git pull` al autenticar de manera segura las interacciones con repositorios 
+   remotos.
+
+3. **Interacción con la API de GitHub:**
+   - Permite el desarrollo de scripts, herramientas y aplicaciones que interactúan con la API de GitHub.
+   - Facilita la automatización de tareas y la integración con flujos de trabajo personalizados.
+
+4. **Control de Acceso:**
+   - La generación de tokens personalizados permite definir los alcances (scopes) específicos de las operaciones que el token puede realizar.
+   - En el tutorial, se destaca la importancia de seleccionar el alcance `repo` para permitir el acceso a repositorios desde la línea de 
+   comandos.
+
+5. **Evitar Contraseñas en Scripts:**
+   - Al usar un token en lugar de una contraseña en scripts y herramientas automatizadas, se mejora la seguridad y se evita el riesgo asociado
+    con el almacenamiento de contraseñas en texto plano.
+
+6. **Expiración y Gestión:**
+   - Los tokens pueden configurarse con una fecha de expiración para garantizar su vigencia limitada.
+   - La generación de tokens nuevos y la revocación de tokens antiguos permiten una gestión más eficiente de la seguridad.
+
+7. **Integración con Herramientas y Servicios:**
+   - Algunas herramientas de desarrollo y servicios de CI/CD permiten la autenticación mediante tokens, facilitando la integración con flujos 
+   de trabajo automatizados.
+
+8. **Prácticas Recomendadas:**
+   - El tutorial destaca prácticas recomendadas, como copiar y almacenar el token de manera segura, y utilizarlo junto con el nombre de 
+   usuario al realizar operaciones desde la línea de comandos.
+
+En resumen, el token de acceso personal en GitHub es esencial para garantizar una autenticación segura y controlada al interactuar con 
+repositorios y servicios remotos. Mejora la seguridad, facilita la automatización y sigue las mejores prácticas de gestión de accesos en entornos colaborativos y de desarrollo.
+
+**Prácticas Recomendadas al Utilizar Tokens de Acceso Personal en GitHub**
+
+1. **Generar Tokens Específicos:**
+   - Crea tokens con permisos precisos y específicos para las operaciones que planeas realizar. Evita otorgar permisos innecesarios.
+
+2. **Establecer Fecha de Expiración:**
+   - Configura una fecha de expiración para los tokens. Esto garantiza que los tokens tengan una vigencia limitada y refuerza la seguridad.
+
+3. **Utilizar Alcances Apropiados:**
+   - Al generar un token, selecciona los alcances (scopes) adecuados para las acciones que planeas realizar. Por ejemplo, selecciona `repo` 
+   para acceder a repositorios.
+
+4. **Guardar y Manejar Tokens de Forma Segura:**
+   - Almacena los tokens en un lugar seguro, como un administrador de contraseñas o un archivo cifrado.
+   - Evita compartir tokens de manera indiscriminada y asegúrate de que solo personas autorizadas tengan acceso.
+
+5. **Rotación de Tokens:**
+   - Considera la rotación periódica de tokens, generando nuevos tokens y revocando los antiguos. Esto contribuye a una gestión efectiva de 
+   la seguridad.
+
+6. **Evitar Uso Indiscriminado:**
+   - No utilices un token en entornos no seguros o compartidos, como URL públicas o scripts no protegidos.
+
+7. **Revisión de Permisos:**
+   - Revisa regularmente los permisos asociados con tus tokens. Ajusta los alcances si tus necesidades cambian con el tiempo.
+
+8. **Eliminar Tokens No Utilizados:**
+   - Revoca o elimina tokens que ya no son necesarios. Esto reduce la superficie de ataque y mantiene un control más estricto sobre el acceso.
+
+9. **Conciencia de Entorno Colaborativo:**
+   - Si colaboras en un equipo, comunica el uso de tokens y asegúrate de que todos los miembros comprendan las mejores prácticas de seguridad
+    asociadas con ellos.
+
+10. **Seguir las Recomendaciones de GitHub:**
+    - Consulta la documentación oficial de GitHub sobre el uso de tokens y sigue las prácticas recomendadas proporcionadas por la plataforma.
+
+Estas prácticas recomendadas ayudan a garantizar una gestión segura y eficiente de los tokens de acceso personal en entornos de desarrollo 
+colaborativos, minimizando riesgos y mejorando la integridad de la seguridad en GitHub.
