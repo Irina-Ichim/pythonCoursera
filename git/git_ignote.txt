@@ -1,0 +1,29 @@
+El archivo .gitignore es una parte importante de un repositorio de Git. Su función principal es indicar a Git qué archivos o directorios debe 
+ignorar y no incluir en el control de versiones. Esto es especialmente útil para evitar que ciertos tipos de archivos generados automáticamente
+archivos temporales, archivos de construcción o cualquier otro tipo de archivo que no sea relevante para el historial de versiones se incluyan
+en el repositorio.
+
+Aquí hay algunos puntos clave sobre los archivos .gitignore:
+
+Estructura del archivo: El archivo .gitignore es un archivo de texto simple que contiene patrones que describen los archivos o directorios que
+se deben omitir. Cada patrón generalmente se coloca en una línea separada.
+
+Sintaxis de patrones: Los patrones en el archivo .gitignore pueden ser simples o más complejos, utilizando caracteres comodín. Algunos ejemplos
+de patrones comunes son:
+
+*.log: Ignora todos los archivos con extensión ".log".
+build/: Ignora el directorio llamado "build" y todos sus contenidos.
+/config.ini: Ignora un archivo llamado "config.ini" solo en el directorio raíz del repositorio.
+!important.txt: Incluso si un patrón general ignora un tipo de archivo, puedes negarlo para forzar su inclusión.
+Ubicación del archivo: El archivo .gitignore se puede colocar en el directorio raíz del repositorio o en subdirectorios específicos si deseas
+aplicar reglas de ignorar archivos de manera selectiva en diferentes partes del repositorio.
+
+Aplicación de reglas: Las reglas definidas en un archivo .gitignore se aplican localmente al repositorio donde se encuentra el archivo. 
+Si tienes reglas específicas para ignorar archivos en tu repositorio, asegúrate de incluir un archivo .gitignore y agregar las reglas 
+relevantes.
+
+Seguimiento de cambios: Es una buena práctica incluir el archivo .gitignore en el repositorio mismo, de modo que otros colaboradores del 
+proyecto tengan acceso a las mismas reglas y no incluyan accidentalmente archivos no deseados en el repositorio compartido.
+
+Usar un archivo .gitignore es importante para mantener un repositorio limpio y eficiente, evitando la inclusión de archivos no deseados en el 
+seguimiento de versiones y ayudando a que el control de versiones sea más efectivo. 

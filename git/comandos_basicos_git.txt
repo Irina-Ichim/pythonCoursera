@@ -52,4 +52,79 @@ Git es un sistema de control de versiones muy poderoso. A continuación, se mues
     - Sube tus cambios locales a un repositorio remoto.
     - Ejemplo: `git push origin mi_rama`
 
-Estos son solo algunos de los comandos básicos de Git. Git ofrece muchas más funcionalidades y opciones que puedes explorar a medida que te vuelvas más familiarizado con la herramienta.
+12. `git config-l´ El comando git config -l se utiliza para listar la configuración de Git en un repositorio específico. 
+
+13. git log -p: "Produces patch text", lo que implica que este comando muestra la información de los cambios en forma de parches.
+
+14. git show: "Shows various objects," lo que significa que este comando muestra varios objetos Git, como commits, etiquetas y árboles.
+
+15. git diff: Este comando "Is similar to the Linux diff command, and can show the differences in various commits," lo que indica que se 
+    utiliza para mostrar las diferencias entre varios commits.
+
+16. git diff --staged: Es un alias para --cached y muestra todas las diferencias entre los archivos en el área de preparación y el commit 
+    anterior.
+
+17. git add -p: "Allows a user to interactively review patches to add to the current commit," lo que significa que este comando permite a un 
+    usuario revisar parches de manera interactiva para agregar al commit actual.
+
+18. git mv: Similar al comando Linux mv, se utiliza para mover archivos en un repositorio de Git.
+
+19. git rm: Similar al comando Linux rm, se utiliza para eliminar o quitar archivos de un repositorio Git.
+
+20. git checkout: Se utiliza para cambiar de una rama a otra en Git. Te permite cambiar al estado de otra rama, lo que implica trabajar en una
+     rama diferente en tu repositorio.
+
+21. git reset: Este comando se utiliza para restablecer el estado del repositorio, deshaciendo algunos cambios. Es un comando más avanzado y 
+   puede ser un poco complicado de entender, por lo que se recomienda consultar ejemplos en la documentación para comprenderlo mejor. 
+   También se menciona que hay enfoques más agresivos para restablecer el repositorio.
+
+22. git commit --amend: Permite realizar cambios en commits después de haberse realizado. Esto es útil para agregar notas adicionales o hacer 
+   correcciones en un commit previamente realizado.
+
+23. git revert: Crea un nuevo commit que deshace los cambios realizados en un commit anterior, lo que es similar a un comando "deshacer".
+   Este comando es útil cuando necesitas corregir errores o deshacer cambios en el historial sin eliminar por completo el commit original.
+
+24. git branch: Se utiliza para administrar las ramas en un repositorio Git.
+
+25. git branch <name>: Crea una nueva rama con el nombre especificado.
+
+26. git branch -d <name>: Elimina una rama, pero solo si los cambios de esa rama ya han sido fusionados en otra rama.
+
+27. git branch -D <name>: Elimina una rama de manera forzada, incluso si los cambios no se han fusionado.
+
+28. git checkout <branch>: Cambia a la rama especificada.
+
+29. git checkout -b <branch>: Crea una nueva rama y cambia a ella en un solo comando.
+
+30. git merge <branch>: Fusiona una rama con la rama actual.
+
+31. git merge --abort: Se utiliza en caso de conflictos de fusión para abortar la acción de fusión.
+
+32. git log --graph --oneline: Muestra una vista resumida del historial de commits en un repositorio, con una representación gráfica de las 
+   fusiones y bifurcaciones en una sola línea.
+
+33. git remote: Este comando muestra una lista de los repositorios remotos configurados para tu repositorio local.
+
+34. git remote -v: Similar al comando anterior, pero muestra una lista detallada de los repositorios remotos, incluyendo las URL 
+    correspondientes.
+
+35. git remote show <name>: Muestra información detallada sobre un repositorio remoto específico. Reemplaza <name> con el nombre del 
+   repositorio remoto que deseas inspeccionar.
+
+36. git remote update: Este comando se utiliza para buscar y descargar información actualizada desde los repositorios remotos. Asegura que 
+   tengas la información más reciente, pero no modifica tu rama de trabajo local.
+
+37. git fetch: Descarga objetos específicos (como commits, ramas, etiquetas, etc.) desde un repositorio remoto a tu repositorio local. 
+   A diferencia de git pull, este comando no fusiona automáticamente los cambios en tu rama local.
+
+38. git branch -r: Lista las ramas remotas en tu repositorio local. Puedes combinar este comando con otros argumentos para gestionar las 
+   ramas remotas, como crear una rama local basada en una rama remota.
+
+ 
+Los archivos .gitignore, que se utilizan para indicar a Git qué archivos debe ignorar en un repositorio.
+
+Cuando ejecutas este comando, Git mostrará una lista de todas las configuraciones que se aplican a ese repositorio, incluyendo configuraciones 
+globales y locales. La "l" en el comando significa "list" (listar).
+
+Estos son solo algunos de los comandos básicos de Git. Git ofrece muchas más funcionalidades y opciones que puedes explorar a medida que te 
+vuelvas más familiarizado con la herramienta.
