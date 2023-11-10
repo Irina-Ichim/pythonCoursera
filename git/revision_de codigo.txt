@@ -1,0 +1,78 @@
+La importancia de las revisiones de código en el desarrollo de software.Puntos clave:
+
+1. **Revisión de Código:**
+   - GitHub y otros servicios de alojamiento de repositorios ofrecen herramientas para realizar revisiones de código.
+   - La revisión de código no se limita solo al código fuente, sino que también se puede aplicar a archivos de configuración y documentación.
+
+2. **Objetivo de la Revisión de Código:**
+   - Asegurar que los cambios sean de alta calidad y sigan los patrones esperados.
+   - Mejorar la comprensión del proyecto y garantizar la coherencia estilística.
+   - Evitar olvidar casos importantes y aumentar la cantidad de personas que revisan el código.
+
+3. **Beneficios de las Revisiones de Código:**
+   - Aumento de la calidad del código y reducción de errores.
+   - Compartir conocimientos entre escritores y revisores de código.
+   - Enseñar y aprender nuevas técnicas y enfoques.
+
+4. **Herramientas de Revisión de Código:**
+   - Herramientas como GitHub permiten dejar comentarios y sugerencias en el código de otra persona.
+   - Se pueden señalar problemas comunes, como nombres poco claros, falta de pruebas o manejo insuficiente de condiciones específicas.
+
+5. **Cultura de Revisiones de Código:**
+   - Algunos proyectos de código abierto y empresas requieren revisiones de código para todos, no solo para aquellos sin acceso de confirmación directa.
+   - La cultura de revisiones busca la calidad del código en lugar de desconfiar de los desarrolladores.
+
+6. **Beneficios Personales de las Revisiones:**
+   - Las revisiones de código ayudan a mejorar las habilidades de codificación al recibir retroalimentación.
+   - Revisar el código de otras personas brinda oportunidades para aprender enfoques diferentes.
+
+7. **Ejemplo Personal:**
+   - El autor comparte una experiencia personal donde la revisión de código señaló errores de estilo y una omisión importante en el código, 
+   lo que llevó a mejoras significativas.
+
+8. **Cierre:**
+   - Se destaca que las revisiones de código no se tratan de ser buenos o malos codificadores, sino de mejorar el código en general.
+   - Se menciona que incluso el contenido de los cursos, como estos videos, pasa por revisiones exhaustivas para garantizar su calidad.
+
+
+El proceso típico de una revisión de código utilizando una herramienta de revisión. Aquí están los puntos clave:
+Solicitud de Revisión:
+
+Después de realizar cambios en el código, se solicita a un revisor que examine los cambios.
+El revisor puede aprobar los cambios directamente o señalar áreas que necesitan mejoras.
+Comentarios de Revisión:
+
+El revisor agrega comentarios al código explicando qué necesita ser corregido y cómo.
+Los comentarios pueden abordar desde pequeños ajustes hasta cambios significativos.
+Resolución de Comentarios:
+
+El autor de los cambios aborda los comentarios realizando correcciones, como corregir errores tipográficos o agregar pruebas faltantes.
+Después de abordar un comentario, se marca como resuelto.
+Interacción con el Revisor:
+
+Si hay dudas sobre cómo abordar un comentario o si se sugiere un enfoque diferente, se puede responder al comentario sin marcarlo como resuelto.
+Aprobación y Fusión:
+
+Una vez que todos los comentarios han sido resueltos y el revisor está satisfecho, aprueba los cambios.
+Los cambios aprobados pueden fusionarse en la rama principal del repositorio.
+Tipos de Comentarios:
+
+Los comentarios pueden variar desde correcciones críticas hasta sugerencias para mejorar el código (a menudo etiquetadas como "Nit" para 
+cambios no críticos).
+Mejora Continua del Código:
+
+Se destaca la importancia de no limitarse a responder preguntas en los comentarios, sino de utilizarlos como oportunidades para mejorar la 
+claridad del código.
+Estilo del Código:
+
+Se menciona la relevancia de seguir guías de estilo específicas del proyecto para evitar discusiones innecesarias sobre el estilo del código.
+Se sugiere hacer referencia a guías de estilo comunes, como PEP8 para proyectos Python.
+Diversidad de Herramientas de Revisión:
+
+Existen diversas herramientas de revisión de código, y el proceso puede variar según la plataforma.
+Algunas herramientas requieren aprobación de los mantenedores del proyecto, mientras que otras pueden necesitar un cierto número de 
+aprobaciones de colaboradores.
+Importancia de las Revisiones:
+
+Se enfatiza que incluso proyectos simples pueden beneficiarse de revisiones de código, ya que proporcionan una perspectiva adicional y 
+mejoran la calidad del código
