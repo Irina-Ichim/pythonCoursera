@@ -1,0 +1,33 @@
+# Resumen: Debugging y Troubleshooting
+
+## 1. Reproducción del Problema
+
+- Antes de abordar un problema, es crucial reproducirlo para comprenderlo completamente.
+
+## 2. Herramientas de Depuración
+
+- Se destacó el uso de `strace` para obtener información detallada sobre llamadas al sistema y acciones del programa.
+
+## 3. Análisis de Resultados
+
+- La salida de `strace` mostró todas las llamadas al sistema, permitiendo el análisis de posibles errores.
+
+## 4. Identificación de la Causa Raíz
+
+- Se identificó que el programa intentaba abrir un directorio inexistente.
+
+## 5. Soluciones a Corto y Largo Plazo
+
+- Se implementó una solución inmediata creando el directorio, con un plan para abordar el problema a largo plazo.
+
+## 6. Documentación
+
+- Se enfatizó la importancia de documentar cada paso, desde la reproducción hasta la solución implementada.
+
+## 7. Colaboración y Comunicación
+
+- Se sugirió contactar a los desarrolladores para solucionar el problema a nivel más amplio.
+
+## 8. Aprendizaje Continuo
+
+- Resolver problemas técnicos puede requerir exploración constante de herramientas y enfoques.
