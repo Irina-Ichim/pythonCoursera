@@ -1,0 +1,21 @@
+Resumen - Algoritmos de Búsqueda en Listas
+
+1. Búsqueda Lineal:
+   - Método: Comienza desde el primer elemento y verifica coincidencia.
+   - Eficiencia: Proporcional a la longitud de la lista.
+   - Aplicación: Útil para listas no ordenadas.
+
+2. Búsqueda Binaria:
+   - Método: Aplicable solo a listas ordenadas. Compara con elemento central.
+   - Eficiencia: Logarítmica en función de la longitud de la lista.
+   - Aplicación: Altamente eficiente para listas ordenadas.
+
+3. Comparación de Eficiencia:
+   - Búsqueda Lineal: Hasta el número total de elementos en el peor de los casos.
+   - Búsqueda Binaria: Puede ser muy eficiente, especialmente en listas largas.
+
+4. Consideraciones:
+   - Búsqueda Lineal: Funciona en listas no ordenadas y es más simple.
+   - Búsqueda Binaria: Requiere lista ordenada, pero es eficiente, especialmente en listas grandes.
+
+Si estás interesado en implementaciones en Python, puedes encontrarlas en la próxima lectura.
