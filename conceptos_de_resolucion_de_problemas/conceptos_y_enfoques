@@ -1,0 +1,62 @@
+
+### Debugging:
+
+1. **Definición:**
+   - Proceso de identificar, analizar y corregir errores o "bugs" en el código de un programa.
+
+2. **Enfoque:**
+   - Se centra en el código de la aplicación y busca corregir problemas específicos en la implementación.
+
+3. **Herramientas:**
+   - Uso de herramientas específicas de depuración diseñadas para el lenguaje de programación utilizado.
+   - Permite seguir el código línea por línea, inspeccionar variables y detener la ejecución en condiciones específicas.
+
+4. **Propósito:**
+   - Mejora la calidad del código, asegurando su correcto funcionamiento y detectando posibles errores.
+
+### Troubleshooting:
+
+1. **Definición:**
+   - Proceso de identificar, analizar y resolver problemas en un sistema más amplio, que puede incluir hardware, software, configuraciones, redes, etc.
+
+2. **Enfoque:**
+   - Se aplica a problemas más generales en el sistema, no limitados al código de la aplicación.
+   - Puede involucrar aspectos como hardware, sistemas operativos, configuraciones de red, etc.
+
+3. **Herramientas:**
+   - Utiliza diversas herramientas según la naturaleza del problema (ej. tcpdump, Wireshark para problemas de red; ps, top para recursos del sistema).
+
+4. **Propósito:**
+   - Asegura el correcto funcionamiento del sistema en su conjunto, abordando problemas que pueden surgir debido a diversas razones.
+
+### Pasos Generales:
+
+1. **Obtención de Información:**
+   - Recopilar datos sobre el problema, incluyendo casos de reproducción, registros y condiciones del entorno.
+
+2. **Identificación de la Causa Raíz:**
+   - Profundizar para entender lo que desencadenó el problema y por qué ocurrió.
+
+3. **Corrección Necesaria:**
+   - Implementar soluciones inmediatas y, a largo plazo, para evitar recurrencias.
+
+4. **Documentación:**
+   - Registrar detalladamente todas las acciones tomadas, información recopilada y soluciones implementadas.
+
+5. **Prevención:**
+   - Considerar medidas para evitar que el problema vuelva a ocurrir.
+
+### Ejemplo Práctico:
+
+1. **Identificación del Problema:**
+   - Computadora que se apaga inesperadamente.
+
+2. **Obtención de Información:**
+   - Revisar registros, buscar errores en línea, identificar la causa (ventilador obstruido).
+
+3. **Corrección Necesaria:**
+   - Solución a corto plazo: limpiar el ventilador.
+   - Correcciones a largo plazo: implementar monitoreo y reducir la cantidad de polvo en el aire.
+
+4. **Documentación:**
+   - Registrar todo el proceso para referencia futura.

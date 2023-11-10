@@ -30,4 +30,20 @@ En el ámbito de la informática, tanto el "debugging" como el "troubleshooting"
 
 - Ambos procesos son esenciales en el desarrollo de software y la administración de sistemas, ya que permiten mantener la integridad y el rendimiento de las aplicaciones y la infraestructura tecnológica.
 
+
+**Troubleshooting:**
+
+Definición: Proceso de identificar, analizar y resolver problemas en un sistema más amplio, abordando aspectos como hardware, sistema operativo, aplicaciones, configuraciones, entorno y otros posibles causantes de problemas.
+Enfoque: Se centra en mantener el correcto funcionamiento del sistema en su totalidad.
+Ejemplos: Problemas causados por hardware defectuoso, configuraciones incorrectas, conflictos en el software, etc.
+
+**Debugging:**
+
+Definición: Proceso de identificar, analizar y corregir errores específicos en el código de una aplicación o programa.
+Enfoque: Se centra en mejorar y optimizar el código fuente, eliminando errores sintácticos o lógicos.
+Ejemplos: Corrección de errores en el código, mejora del rendimiento y la eficiencia del software.
+Herramientas:
+
+Ambos procesos hacen uso de herramientas específicas. Para el "troubleshooting," se mencionan herramientas como tcpdump, Wireshark, ps, top y free para obtener información sobre el sistema. Para el "debugging," se utilizan depuradores específicos del lenguaje de programación.
+
 En resumen, el "debugging" y el "troubleshooting" son complementarios, ya que uno se enfoca en el detalle del código y el otro en el sistema en su totalidad. Ambos son habilidades valiosas para profesionales de la informática y contribuyen al desarrollo y mantenimiento exitoso de sistemas y aplicaciones.
