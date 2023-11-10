@@ -50,3 +50,42 @@ Instrucciones para Pull Request en GitHub
    - Responde a los comentarios y realiza cambios según sea necesario.
 
 ¡Listo! Has creado y enviado con éxito una solicitud de extracción en GitHub.
+
+Actualización de Pull Requests
+
+ Se aborda la situación común de recibir comentarios de los mantenedores del proyecto después de enviar un Pull Request y cómo abordar esos 
+ comentarios.
+
+## Recepción de Comentarios:
+
+Después de enviar un Pull Request, es común recibir comentarios de los mantenedores del proyecto. Estos comentarios pueden solicitar mejoras, 
+como agregar documentación, pruebas o asegurarse de que el cambio cumpla con las pautas de estilo del proyecto.
+
+## Ejemplo de Comentario Recibido:
+
+En este caso, el colaborador recibe un comentario que sugiere que el README es demasiado corto y se pide agregar un ejemplo. 
+Se muestra el comentario recibido y la sugerencia de agregar más detalles al archivo README.
+
+## Realizar Cambios para Abordar Comentarios:
+
+Se procede a agregar más detalles al README, incluyendo una explicación de cómo la función rearrange funciona y un ejemplo con nombres.
+
+## Hacer Commit y Push de los Cambios:
+
+Se utiliza el comando `git commit` para realizar un commit local con un mensaje descriptivo. Luego, se utiliza `git push` para enviar los 
+cambios al repositorio remoto en GitHub.
+
+## Verificación en GitHub:
+
+Se muestra cómo los commits adicionales se reflejan en el Pull Request en GitHub. Se resalta que GitHub automáticamente agrega los nuevos 
+commits al mismo Pull Request si se empujan a la misma rama.
+
+## Revisión de Cambios en GitHub:
+
+Se examina la pestaña "Files Changed" para ver todos los archivos afectados por el Pull Request. Se explica el uso de colores 
+(verde para adiciones, rojo para eliminaciones) en la interfaz de GitHub para resaltar los cambios.
+
+## Renderizado de Contenidos Markdown:
+
+Se destaca que GitHub permite ver el contenido Markdown renderizado y resalta los cambios realizados.
+

@@ -1,0 +1,43 @@
+Cómo realizar un rebase interactivo para combinar cambios en un repositorio Git, especialmente cuando se trata de pull requests. 
+Aquí hay una explicación detallada:
+
+1. **Contexto del Historial de Commits:**
+   - Cuando trabajas en un proyecto colaborativo y has enviado commits (por ejemplo, a través de pull requests), esos commits forman parte del
+    historial del repositorio.
+
+2. **Importancia de No Reescribir Historia Publicada:**
+   - Por lo general, no debes reescribir la historia de los commits una vez que han sido publicados, ya que otras personas pueden haber 
+   sincronizado su repositorio con esos contenidos.
+
+3. **Excepción para Pull Requests:**
+   - La regla de no reescribir historia publicada se relaja en el caso de pull requests. Dado que, generalmente, solo tú has clonado tu 
+   bifurcación del repositorio, puedes realizar cambios en tu pull request.
+
+4. **Escenario de Rebase Interactivo:**
+   - Supongamos que los mantenedores del proyecto solicitan combinar tus dos commits en un solo commit con una descripción más detallada.
+
+5. **Uso de Rebase Interactivo:**
+   - Se utiliza el comando `git rebase -i master`. Esto inicia un rebase interactivo tomando como referencia la rama master.
+
+6. **Editor Interactivo:**
+   - Se abre un editor de texto con una lista de commits desde el más antiguo hasta el más reciente.
+   - Cambiando la palabra clave en cada línea, puedes seleccionar diferentes acciones para los commits.
+
+7. **Acción de Squash:**
+   - La acción de interés aquí es "squash". Al seleccionar "squash" para el segundo commit, estás indicando que deseas combinar ese commit 
+   con el anterior.
+
+8. **Edición de Mensaje de Commit:**
+   - Después de indicar "squash", se abre otro editor para editar el mensaje del commit combinado. Aquí, puedes mejorar la descripción.
+
+9. **Forzar la Actualización Remota:**
+   - Después de completar el rebase interactivo, puedes enfrentarte al problema de que la rama remota tiene commits diferentes.
+   - Se utiliza `git push -f` para forzar la actualización remota y reemplazar los commits antiguos con el nuevo.
+
+10. **Verificación del Éxito:**
+   - Se verifica que el push forzado fue exitoso y que los commits en el historial han sido combinados.
+
+11. **Verificación en GitHub:**
+   - Se confirma que los cambios se reflejan correctamente en la interfaz de GitHub, especialmente en el pull request.
+
+Este proceso te permite consolidar y mejorar commits en un pull request antes de que se fusionen en la rama principal del repositorio.
