@@ -41,3 +41,44 @@ Aquí hay una explicación detallada:
    - Se confirma que los cambios se reflejan correctamente en la interfaz de GitHub, especialmente en el pull request.
 
 Este proceso te permite consolidar y mejorar commits en un pull request antes de que se fusionen en la rama principal del repositorio.
+
+# Explicado por ChatGpt
+
+## Rebase Interactivo en Git: Explicación Sencilla
+
+### Contexto Básico:
+Cuando trabajamos en proyectos con Git, cada cambio que realizamos y guardamos se guarda como un "commit" en la historia del proyecto.
+
+### Problema Común:
+Normalmente, no deberíamos cambiar la historia de los "commits" una vez que la compartimos con otras personas. Sin embargo, hay excepciones.
+
+### Excepción para Pull Requests:
+Si estás trabajando en un "pull request" (solicitud de incorporación de cambios), puedes cambiar la historia de tus "commits" de manera 
+controlada.
+
+### Situación Típica:
+Imagina que los mantenedores del proyecto te piden que combines dos "commits" en uno solo para que sea más fácil de entender.
+
+### Solución: Rebase Interactivo:
+
+1. **Inicio del Rebase Interactivo:**
+   - Ejecutas `git rebase -i master` en tu terminal.
+   - Se abrirá un menú interactivo que muestra tus "commits".
+
+2. **Seleccionar Acción "Squash":**
+   - Eliges la acción "squash" para el segundo "commit". Esto significa que quieres combinar ese "commit" con el anterior.
+
+3. **Edición del Mensaje del Commit:**
+   - Puedes editar el mensaje del "commit" combinado para proporcionar una descripción más clara.
+
+4. **Forzar la Actualización Remota:**
+   - Como has cambiado la historia de tus "commits", necesitas usar `git push -f` para forzar la actualización remota en tu "fork" del 
+   repositorio.
+
+5. **Verificación del Éxito:**
+   - Verificas que tu "push" forzado fue exitoso y que los "commits" se han combinado correctamente.
+
+### Resultado:
+El rebase interactivo te permite mejorar y simplificar la historia de tus cambios antes de que se integren en la rama principal del proyecto.
+
+Recuerda: utiliza esto con precaución y solo en situaciones específicas, como cuando trabajas en tu "fork" y colaboras en un "pull request". 
