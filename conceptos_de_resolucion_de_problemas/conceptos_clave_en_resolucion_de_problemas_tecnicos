@@ -1,0 +1,22 @@
+**Resumen de Conceptos Clave en Resolución de Problemas Técnicos**
+
+1. **Recopilación de Información:**
+   - Antes de abordar un problema, recopila información detallada sobre el problema, incluyendo lo que el usuario intentaba hacer, los pasos seguidos y los resultados esperados y reales.
+
+2. **Explicaciones Simples Primero:**
+   - Considera explicaciones simples antes de soluciones complejas. Ejemplo: verifica conexiones físicas antes de acciones más complicadas.
+
+3. **Proceso de Eliminación:**
+   - Utiliza un proceso de eliminación para identificar la causa raíz, comenzando con explicaciones simples y realizando pruebas para aislar el problema.
+
+4. **Herramientas de Depuración:**
+   - Utiliza herramientas como `top` y `strace` para analizar el estado del sistema y ver las llamadas al sistema realizadas por un programa.
+
+5. **Acciones Inmediatas y a Largo Plazo:**
+   - Después de identificar la causa raíz, toma acciones inmediatas para remediar el problema y permitir que los usuarios continúen trabajando. Aborda la remediación a largo plazo según sea necesario.
+
+6. **Claridad en la Definición del Problema:**
+   - Asegúrate de tener una comprensión clara del problema antes de abordarlo. Una definición ambigua puede conducir a soluciones incorrectas.
+
+7. **Documentación:**
+   - Documenta información recopilada, acciones tomadas y soluciones implementadas. La documentación es valiosa para referencias futuras y ayuda a otros que puedan enfrentar problemas similares.
