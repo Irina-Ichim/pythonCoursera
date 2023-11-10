@@ -78,3 +78,7 @@ repositorios y servicios remotos. Mejora la seguridad, facilita la automatizaci�
 
 Estas prácticas recomendadas ayudan a garantizar una gestión segura y eficiente de los tokens de acceso personal en entornos de desarrollo 
 colaborativos, minimizando riesgos y mejorando la integridad de la seguridad en GitHub.
+
+A mi manera: _ entras a tu github, desde tu foto de peril vas a settings + click , en la izquierda veras Developer Settings, click, y ahi ya te sale en crear
+token, haz clic encima de todos los cuadritos , luego genera el token. Una vez lo tengas copialo y guardalo en un bloc de notas porque te lo van a pedir 
+muchas veces

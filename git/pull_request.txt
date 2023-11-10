@@ -1,0 +1,52 @@
+Instrucciones para Pull Request en GitHub
+
+1. **Fork del Repositorio:**
+   - Haz clic en el botón "Fork" en la parte superior derecha del repositorio original en GitHub.
+   - Esto creará una copia personalizada del repositorio en tu cuenta de GitHub.
+
+2. **Clonar el Repositorio Forked:**
+   - En tu máquina local, usa el siguiente comando para clonar el repositorio forked:
+     ```bash
+     git clone [URL_DEL_FORK]
+     ```
+
+3. **Crear una Nueva Rama Local:**
+   - Cambia al directorio del repositorio clonado:
+     ```bash
+     cd nombre_del_repositorio
+     ```
+   - Crea y cambia a una nueva rama (por ejemplo, "add-readme"):
+     ```bash
+     git checkout -b add-readme
+     ```
+
+4. **Realizar Cambios Locales:**
+   - Edita el archivo README.md o realiza los cambios necesarios.
+
+5. **Realizar un Commit Local:**
+   - Guarda los cambios y realiza un commit:
+     ```bash
+     git add .
+     git commit -m "Agregando README y cambios necesarios."
+     ```
+
+6. **Empujar la Nueva Rama al Repositorio Forked:**
+   - Empuja la nueva rama al repositorio forked en GitHub:
+     ```bash
+     git push -u origin add-readme
+     ```
+
+7. **Crear la Solicitud de Extracción en GitHub:**
+   - Visita tu repositorio forked en GitHub.
+   - Cambia a la nueva rama "add-readme".
+   - Haz clic en "New Pull Request".
+   - Asegúrate de que los cambios se puedan fusionar automáticamente.
+   - Proporciona comentarios explicativos y útiles.
+   - Verifica el diff para confirmar los cambios.
+   - Haz clic en "Create Pull Request".
+
+8. **Responder a Comentarios (si es necesario):**
+   - Después de enviar la solicitud, los mantenedores pueden hacer comentarios.
+   - Responde a los comentarios y realiza cambios según sea necesario.
+
+¡Listo! Has creado y enviado con éxito una solicitud de extracción en GitHub.
