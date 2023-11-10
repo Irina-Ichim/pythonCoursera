@@ -1,0 +1,36 @@
+**Automatización de Pruebas y Integración Continua (CI) en Desarrollo de Software**
+
+En este curso, se enfatiza la importancia de la automatización de pruebas y la integración continua (CI) en proyectos de desarrollo de software
+. Aquí se presentan los puntos clave:
+
+1. **Pruebas Automatizadas:**
+   - Las pruebas manuales son propensas a olvidos. Se aboga por pruebas automatizadas que verifiquen automáticamente el código después de cada
+    cambio.
+
+2. **Integración Continua (CI):**
+   - La CI implica construir y probar automáticamente el código cada vez que se realiza un cambio. Garantiza ejecuciones sistemáticas y 
+   regulares de pruebas.
+
+3. **Despliegue Continuo (CD):**
+   - Se menciona el despliegue continuo, que busca implementar nuevas versiones con frecuencia, evitando despliegues masivos con muchos 
+   cambios.
+
+4. **Herramientas de CI/CD:**
+   - Se destacan herramientas como Jenkins, Travis y GitLab. Travis se menciona como una opción popular que se integra con GitHub.
+
+5. **Conceptos Clave:**
+   - Se introducen conceptos como "pipelines" (secuencia de pasos), "artifacts" (archivos generados) y la gestión cuidadosa de "secrets"
+    (credenciales).
+
+6. **Configuración de Travis para Proyectos de GitHub:**
+   - Breve descripción de la configuración de Travis para proyectos de GitHub, incluida la habilitación de proyectos y la adición de un archivo de configuración YAML.
+
+7. **Consideraciones de Seguridad:**
+   - Se destaca la importancia de manejar cuidadosamente las credenciales y tener un plan para recuperar el acceso en caso de compromisos 
+   de seguridad.
+
+8. **Invitación a Investigar:**
+   - Se anima a los estudiantes a explorar más sobre estos temas para comprender mejor la implementación práctica de CI/CD en sus proyectos.
+
+En resumen, la automatización de pruebas y los procesos de desarrollo continuo son prácticas cruciales para mejorar la calidad del software
+ y facilitar el despliegue eficiente de cambios.
