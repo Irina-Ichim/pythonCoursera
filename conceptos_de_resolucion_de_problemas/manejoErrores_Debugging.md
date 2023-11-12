@@ -1,4 +1,4 @@
-** Manejo de Errores en Programación y Debugging**
+**Manejo de Errores en Programación y Debugging**
 
 **Introducción:**
 En el desarrollo de software, la aparición de errores y excepciones es común, incluso en lenguajes de alto nivel como Python, Java o Ruby. Este archivo aborda la importancia de comprender y manejar adecuadamente estos errores, explorando el proceso de debugging y técnicas como "printf debugging".
