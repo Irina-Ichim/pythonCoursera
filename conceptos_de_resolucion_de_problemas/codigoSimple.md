@@ -48,7 +48,7 @@ La tecnología evoluciona rápidamente, y las soluciones que hoy son eficientes 
 
 En resumen, la planificación y gestión de recursos en sistemas informáticos son aspectos estratégicos que impactan directamente en la capacidad de una organización para enfrentar el crecimiento futuro de manera eficiente. Adoptar un enfoque proactivo, basado en la anticipación, la monitorización constante y la optimización continua, es fundamental para garantizar la estabilidad y el rendimiento de los sistemas informáticos en un entorno dinámico y en constante evolución.
 
-** Estrategias de Resolución de Problemas a Corto y Largo Plazo en Sistemas Informáticos**
+**Estrategias de Resolución de Problemas a Corto y Largo Plazo en Sistemas Informáticos**
 
 En el transcurso de nuestro curso, hemos subrayado en varias ocasiones la importancia de encontrar soluciones temporales rápidas cuando nos enfrentamos a problemas, con el objetivo de que los afectados puedan volver a trabajar lo antes posible. Sin embargo, es crucial comprender que estas soluciones temporales no concluyen nuestro trabajo. Después de restablecer el servicio para los usuarios afectados, debemos buscar soluciones a largo plazo que eviten la recurrencia del problema en el futuro.
 
