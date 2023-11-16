@@ -1,0 +1,98 @@
+# Monitoring
+
+## Contenido
+
+1. Propósito del Monitoreo
+2. Métricas de Monitoreo
+3. Almacenamiento de Métricas
+4. Creación de Dashboards
+5. Whitebox y Blackbox Monitoring
+6. Importancia de Alertas
+7. Proactividad en el Monitoreo
+
+## Propósito del Monitoreo
+
+El monitoreo es esencial para comprender el rendimiento y comportamiento de un sistema en la nube, asegurando su funcionamiento continuo.
+
+## Métricas de Monitoreo
+
+- Diferentes métricas, como códigos de respuesta HTTP, conteo de operaciones, y métricas específicas del servicio, son cruciales para evaluar 
+el rendimiento.
+
+## Almacenamiento de Métricas
+
+- Utilizamos sistemas de monitoreo como AWS CloudWatch, Google Stack Driver, o soluciones como Prometheus, Datadog, y Nagios.
+
+## Creación de Dashboards
+
+- Las métricas recopiladas se utilizan para crear dashboards que visualizan la evolución de las métricas a lo largo del tiempo.
+
+## Whitebox y Blackbox Monitoring
+
+- Whitebox monitoring observa el comportamiento desde adentro, recopilando métricas internas.
+
+## Importancia de Alertas
+
+- En lugar de revisar dashboards continuamente, establecemos reglas de alerta para ser notificados si algo sale mal.
+
+## Proactividad en el Monitoreo
+
+- La proactividad implica establecer alertas basadas en umbrales específicos, permitiendo la intervención antes de afectar a los usuarios.
+
+
+
+## Expectativas de los Servicios en la Nube
+
+Los servicios en la nube deben estar disponibles las 24 horas del día, los 7 días de la semana, y responder a las expectativas de los 
+usuarios en cualquier momento.
+
+## Necesidad de Monitoreo Automatizado
+
+Dado que los administradores de sistemas no pueden estar constantemente frente a sus sistemas, se destaca la necesidad de configurar 
+servicios que funcionen de manera no supervisada y aborden problemas automáticamente.
+
+## Detección de Problemas
+
+Se subraya la importancia de detectar problemas automáticamente para abordarlos rápidamente, evitando depender de informes de usuarios 
+frustrados.
+
+## Automatización de Alertas
+
+Se propone un enfoque básico que implica ejecutar periódicamente un trabajo que verifique la salud del sistema y envíe correos electrónicos 
+si se detectan problemas.
+
+## Uso de Sistemas de Monitoreo
+
+Se sugiere el uso de sistemas de monitoreo avanzados que evalúan métricas recopiladas de manera periódica, en lugar de depender de simples 
+scripts.
+
+## Tipos de Alertas
+
+Se introducen dos tipos de alertas: aquellas que requieren atención inmediata ("pages") y aquellas que necesitan atención en el futuro cercano.
+
+## Páginas y Alertas No Urgentes
+
+Las alertas que requieren atención inmediata se envían como mensajes urgentes a través de varios canales, mientras que las alertas no 
+urgentes pueden generar informes o tickets para abordarse durante las horas laborales.
+
+## Acciones Posteriores a las Alertas
+
+Se destaca la importancia de que todas las alertas sean "accionables", indicando una acción específica que debe tomarse, para evitar alertas 
+innecesarias.
+
+## Configuración y Ajuste
+
+Configurar alertas efectivas implica pensar en qué métricas son críticas, cómo almacenarlas y cómo configurar el sistema para que genere 
+alertas según condiciones específicas.
+
+## Paz Mental
+
+Una vez configuradas las alertas, se logra la tranquilidad, ya que la ausencia de alertas indica que el servicio está funcionando 
+correctamente.
+
+## Decisiones de Configuración
+
+Determinar cuándo generar alertas urgentes o no urgentes puede requerir discusiones en equipo y ayuda a garantizar que el tiempo se gaste 
+solo en cuestiones realmente importantes.
+
+

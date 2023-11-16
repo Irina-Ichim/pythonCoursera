@@ -42,5 +42,3 @@ Implementar un sistema de monitoreo proactivo que genere alertas ante comportami
 ### Pruebas y Entornos de Desarrollo
 
 - Establecer entornos de prueba que utilicen versiones beta o de prelanzamiento para probar nuevas funcionalidades antes de su implementación en producción.
-
-
