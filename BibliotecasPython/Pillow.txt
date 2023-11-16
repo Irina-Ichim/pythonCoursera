@@ -1,0 +1,104 @@
+## Uso de Pillow para Trabajar con Imágenes ##
+
+### Introducción ###
+
+En este documento, exploraremos cómo utilizar la biblioteca Pillow (PIL) para realizar operaciones en imágenes. Pillow es una poderosa 
+biblioteca de procesamiento de imágenes en Python que nos permite realizar diversas tareas, como cambiar el tamaño, rotar y guardar imágenes.
+
+### Creación de Objetos de Imagen ###
+
+Al trabajar con Pillow, comenzamos creando objetos de imagen que contienen los datos de las imágenes que queremos procesar. Estos objetos son 
+esenciales para realizar operaciones en las imágenes.
+
+### Cambiar el Tamaño de una Imagen ###
+
+Para cambiar el tamaño de una imagen, utilizamos el método `resize`. Aquí hay un ejemplo:
+
+```python
+from PIL import Image
+
+# Abrir una imagen
+im = Image.open("ejemplo.jpg")
+
+# Cambiar el tamaño y guardar la nueva imagen
+nueva_imagen = im.resize((640, 480))
+nueva_imagen.save("ejemplo_redimensionada.jpg")
+```
+
+### Rotar una Imagen ###
+
+Rotar una imagen es sencillo con el método `rotate`. Veamos un ejemplo:
+
+```python
+from PIL import Image
+
+# Abrir una imagen
+im = Image.open("ejemplo.jpg")
+
+# Rotar la imagen 90 grados y guardar la nueva imagen
+nueva_imagen = im.rotate(90)
+nueva_imagen.save("ejemplo_rotada.jpg")
+```
+
+### Combinar Operaciones en una Línea ###
+
+Dado que los métodos devuelven nuevos objetos de imagen, podemos combinar varias operaciones en una línea. Por ejemplo, rotar, cambiar el
+ tamaño y guardar en un solo paso:
+
+```python
+from PIL import Image
+
+# Abrir una imagen
+im = Image.open("ejemplo.jpg")
+
+# Rotar, cambiar el tamaño y guardar la nueva imagen
+im.rotate(180).resize((640, 480)).save("volteada_y_redimensionada.jpg")
+```
+
+### Más Funcionalidades de Pillow ###
+
+Pillow ofrece una amplia gama de funciones para el procesamiento de imágenes. Para explorar más, consulta 
+[la documentación oficial](https://pillow.readthedocs.io/), que incluye ejemplos detallados y descripciones de cada función.
+
+### Conclusión ###
+
+Pillow simplifica significativamente la manipulación de imágenes en Python. Experimenta con los ejemplos proporcionados y explora la 
+documentación para descubrir todo lo que Pillow puede ofrecer. ¡Ahora estás listo para potenciar tus proyectos con manipulación de imágenes 
+eficiente!
+
+Para verificar si Pillow está instalado, instalarlo y ejecutar un script que lo utilice, puedes seguir estos pasos. Ten en cuenta que estos 
+comandos pueden variar según tu entorno operativo (Windows, Linux, macOS) y cómo hayas configurado tu entorno de desarrollo 
+(entornos virtuales, por ejemplo). Aquí te proporciono ejemplos generales:
+
+### Verificar si Pillow está instalado:
+
+**En la línea de comandos o terminal:**
+
+```bash
+pip show pillow
+```
+
+Este comando mostrará información sobre la instalación de Pillow si está presente. Si Pillow no está instalado, no se mostrará nada.
+
+### Instalar Pillow:
+
+**En la línea de comandos o terminal:**
+
+```bash
+pip install pillow
+```
+
+Este comando instalará Pillow si no está instalado. Asegúrate de tener `pip` correctamente configurado en tu entorno.
+
+### Ejecutar un script que utiliza Pillow:
+
+**En la línea de comandos o terminal:**
+
+Supongamos que tienes un archivo llamado `mi_script.py` que utiliza Pillow. Puedes ejecutarlo de la siguiente manera:
+
+```bash
+python mi_script.py
+```
+
+Reemplaza `mi_script.py` con el nombre real de tu script. Asegúrate de estar en el directorio correcto donde se encuentra el script o
+proporciona la ruta completa al script.
