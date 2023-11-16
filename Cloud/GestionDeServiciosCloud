@@ -1,0 +1,46 @@
+# Gestionando Servicios en la Nube de Manera Efectiva
+
+Desafíos y estrategias clave para gestionar servicios en la nube de manera efectiva.
+
+## Desafíos Principales
+
+### Tolerancia a Fallas
+
+Diseñar aplicaciones que sean capaces de manejar fallas inesperadas y continuar operando sin introducir problemas en el servicio.
+
+### Límites y Cuotas
+
+Comprender las limitaciones impuestas por los proveedores de servicios en la nube, incluyendo cuotas y límites en operaciones específicas, como escrituras en almacenamiento de blobs.
+
+### Monitoreo Proactivo
+
+Establecer un sistema de monitoreo robusto para identificar tempranamente comportamientos anómalos, agotamiento de cuotas o cualquier otra situación que pueda afectar el rendimiento del servicio.
+
+### Gestión de Dependencias y Actualizaciones
+
+Manejar cuidadosamente las dependencias en servicios de plataforma, como bases de datos alojadas, y enfrentar los desafíos asociados con las actualizaciones de software.
+
+## Estrategias Recomendadas
+
+### Diseño para Tolerancia a Fallas
+
+Asegurarse de que la arquitectura del software sea robusta y capaz de manejar fallas individuales sin afectar el servicio en su totalidad.
+
+### Estrategias para Límites y Cuotas
+- Revisar y ajustar la forma en que se realizan operaciones para evitar bloqueos debido a límites.
+- Considerar solicitar aumentos de cuotas según sea necesario y establecer cuotas predeterminadas para evitar gastos inesperados.
+
+### Monitoreo y Alertas
+
+Implementar un sistema de monitoreo proactivo que genere alertas ante comportamientos inesperados, agotamiento de cuotas o problemas de rendimiento.
+
+### Gestión de Dependencias
+
+- Evaluar cuidadosamente las dependencias en servicios PaaS y entender las implicaciones de no poder seleccionar versiones específicas de software.
+- Comunicarse proactivamente con el proveedor de servicios en la nube para comprender las actualizaciones y posiblemente participar en programas beta.
+
+### Pruebas y Entornos de Desarrollo
+
+- Establecer entornos de prueba que utilicen versiones beta o de prelanzamiento para probar nuevas funcionalidades antes de su implementación en producción.
+
+
