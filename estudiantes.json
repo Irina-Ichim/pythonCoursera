@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Ana",
+    "edad": 22,
+    "cursos": [
+      "Matem\u00e1ticas",
+      "Historia"
+    ]
+  },
+  {
+    "nombre": "Carlos",
+    "edad": 21,
+    "cursos": [
+      "Ingl\u00e9s",
+      "Ciencias"
+    ]
+  },
+  {
+    "nombre": "Elena",
+    "edad": 23,
+    "cursos": [
+      "Programaci\u00f3n",
+      "Literatura"
+    ]
+  }
+]

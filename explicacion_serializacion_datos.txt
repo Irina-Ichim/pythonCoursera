@@ -1,0 +1,27 @@
+Concepto de Serialización de Datos
+
+1. Comunicación Entre Programas:
+- Cuando dos programas necesitan comunicarse, surge la pregunta de qué datos enviar y cómo transmitirlos.
+- Similar a la comunicación humana, donde los pensamientos se convierten en lenguaje antes de la transmisión.
+
+2. Serialización de Datos:
+- La serialización implica convertir una estructura de datos en memoria, como un objeto de Python, en un formato adecuado para almacenamiento 
+o transmisión.
+- Permite que los datos serializados sean posteriormente leídos o recibidos por otro programa y transformados nuevamente en un objeto en 
+memoria (deserialización).
+
+3. Serialización en Servicios Web y APIs:
+- Es crucial para la comunicación con servicios web, donde los puntos de acceso de la API esperan mensajes en formatos específicos con datos 
+predefinidos.
+
+4. Ejemplo Práctico de Serialización:
+- En lugar de usar una lista de listas, representamos información de contacto como una lista de diccionarios.
+- Cada diccionario tiene claves como nombres de columna y valores como información correspondiente.
+- Esto facilita representar datos más complejos, como múltiples números de teléfono por persona.
+
+5. Ventajas de Estructuras Anidadas:
+- Las estructuras anidadas, como diccionarios dentro de diccionarios, permiten representaciones más complejas y descriptivas de los datos.
+- Ejemplo: Almacenar múltiples números de teléfono con nombres descriptivos como 'oficina' y 'móvil'.
+
+6. Próximos Pasos: Exploración de Formatos de Serialización
+- En los próximos contenidos, exploraremos algunos de los formatos de serialización más comunes.

@@ -1,0 +1,24 @@
+Concepto de Aplicaciones Web y Cómo Operan
+
+1. Interacción Navegador-Servidor:
+- Cuando un usuario utiliza un sitio web, el navegador envía solicitudes HTTP al servidor.
+- El servidor, a su vez, pasa estas solicitudes a la aplicación web que decide qué información mostrar.
+- La aplicación web genera contenido en formato HTML y sirve cualquier otro dato necesario, como imágenes.
+
+2. Servicios Web y APIs:
+- Muchas aplicaciones web ofrecen APIs (Interfaces de Programación de Aplicaciones) para la interacción con scripts o programas.
+- Estas aplicaciones web con APIs son conocidas como servicios web.
+- En lugar de interactuar manualmente con una página web, se pueden enviar llamadas de API desde programas.
+
+3. Puntos de Acceso (Endpoints) de API:
+- La parte del programa que escucha las llamadas de API se denomina punto de acceso de API.
+- Es el lugar donde un programa se comunica con el servicio web.
+
+4. Interacción Independiente del Lenguaje:
+- Al interactuar con un servicio web, no es necesario conocer el lenguaje de programación de la otra aplicación.
+- La interacción se realiza mediante un protocolo especificado que ambas partes comprenden.
+
+5. Comunicación Basada en Protocolo:
+- La interacción con servicios web se basa en un protocolo especificado, permitiendo una comunicación estandarizada.
+
+¡Explora más allá para comprender cómo funciona esta interacción y cómo puedes utilizarla en tus propios proyectos!
