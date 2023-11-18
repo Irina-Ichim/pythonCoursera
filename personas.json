@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Juan",
+    "edad": 30,
+    "contacto": {
+      "telefono": "555-1234",
+      "email": "juan@example.com"
+    }
+  },
+  {
+    "nombre": "Maria",
+    "edad": 25,
+    "contacto": {
+      "telefono": "555-5678",
+      "email": "maria@example.com"
+    }
+  },
+  {
+    "nombre": "Carlos",
+    "edad": 35,
+    "contacto": {
+      "telefono": "555-9876",
+      "email": "carlos@example.com"
+    }
+  }
+]
