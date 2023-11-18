@@ -1,0 +1,37 @@
+Lo que se explica aquí es cómo utilizar la biblioteca `requests` de Python para realizar solicitudes HTTP de manera sencilla.
+ Veamos los puntos clave:
+
+1. **HTTP para Comunicación:**
+   - Se destaca que hasta ahora hemos visto cómo serializar datos y almacenarlos en el sistema de archivos local. Sin embargo, si queremos 
+   enviar mensajes a otra computadora en otra red, HTTP es la solución.
+
+2. **Python Requests Library:**
+   - Se introduce la biblioteca `requests`, que facilita la escritura de programas que envían y reciben solicitudes HTTP. Permite realizar c
+   onexiones HTTP de manera sencilla sin tener que entender en detalle el protocolo HTTP.
+
+3. **Ejemplo Básico:**
+   - Se muestra un ejemplo básico de cómo hacer una solicitud GET a una página web utilizando la función `get` de la biblioteca `requests`.
+
+   ```python
+   import requests
+   response = requests.get('https://www.google.com')
+   ```
+
+   - La respuesta de la solicitud es un objeto de tipo `requests.Response`.
+
+4. **Contenido de la Respuesta:**
+   - Se imprime una parte del contenido de la respuesta en formato HTML utilizando `Response.text`.
+
+5. **Trabajo Interno de la Biblioteca:**
+   - Se destaca que la biblioteca `requests` ha realizado muchas tareas automáticamente, como encontrar el servidor web, hacer una conexión 
+   de red, construir un mensaje HTTP, esperar una respuesta y decodificar la respuesta.
+
+6. **Manejo de Compresión:**
+   - Se muestra un ejemplo donde la respuesta del servidor está comprimida con `gzip`. La biblioteca `requests` maneja automáticamente la
+    descompresión de la respuesta.
+
+7. **Detalles de la Solicitud y Respuesta:**
+   - Se muestra cómo acceder a detalles específicos de la solicitud y la respuesta, como encabezados HTTP que indican la compresión.
+
+En resumen, la biblioteca `requests` simplifica significativamente la realización de solicitudes HTTP en Python, ocultando muchos detalles 
+complejos del protocolo HTTP. Esto hace que sea fácil enviar y recibir mensajes HTTP sin tener que preocuparse por los aspectos técnicos subyacentes.
