@@ -1,0 +1,8 @@
+{
+  "nombre": "Juan",
+  "edad": 25,
+  "direccion": {
+    "calle": "123 Main St",
+    "ciudad": "Ciudad Ejemplo"
+  }
+}

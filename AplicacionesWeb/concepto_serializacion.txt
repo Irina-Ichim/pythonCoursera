@@ -1,0 +1,40 @@
+Concepto de Serialización de Datos
+
+Cuando dos programas necesitan comunicarse, surge la pregunta de cómo transferir datos entre ellos. Aquí abordaremos dos aspectos de ese 
+problema: qué enviar y cómo enviarlo.
+
+1. **Qué Enviar:**
+   En una conversación, no envías pensamientos directamente entre cerebros. Lo mismo ocurre con programas en diferentes lugares o tiempos. 
+   Se convierten pensamientos en lenguaje, se transmiten y luego se convierten nuevamente en pensamientos.
+
+2. **Data Serialization (Serialización de Datos):**
+   La serialización es el proceso de convertir una estructura de datos en memoria (como un objeto de Python) en un formato almacenable o 
+   transmitible. Por ejemplo, escribir una lista de listas en memoria en un archivo CSV.
+
+3. **Deserialization (Deserialización):**
+   Después de la serialización, el archivo resultante puede leerse, o la transmisión de red puede convertirse nuevamente en un objeto en 
+   memoria. Esto se llama deserialización.
+
+4. **Importancia en la Comunicación con Servicios Web:**
+   La serialización es esencial para la comunicación con servicios web. Las API de los servicios web esperan mensajes en formatos específicos 
+   con datos predefinidos.
+
+5. **Ejemplo Práctico:**
+   Consideremos la información de contacto en formato CSV. En lugar de listas de listas, podríamos usar una lista de diccionarios para 
+   
+   representar la información de manera más estructurada.
+
+6. **Uso de Diccionarios para Representar Datos:**
+   Cada diccionario tiene claves (nombres de columnas) y valores (información correspondiente en cada fila). Esto facilita representar 
+   datos complejos, como múltiples números de teléfono por persona.
+
+7. **Ventajas de Estructuras Anidadas:**
+   Las estructuras anidadas, como diccionarios dentro de diccionarios, ofrecen flexibilidad. Por ejemplo, representar múltiples números de 
+   teléfono con nombres descriptivos.
+
+8. **Desafío con CSV para Datos Anidados:**
+   Almacenar datos anidados en archivos CSV puede ser complicado debido a la estructura plana de los archivos.
+
+9. **Exploración de Diferentes Formatos:**
+   Existen varios formatos para almacenar datos cuando la estructura no es plana. En secciones futuras, exploraremos algunos de los formatos 
+   de serialización más comunes.

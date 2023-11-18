@@ -1,0 +1,42 @@
+Este fragmento explica que hay muchas maneras de serializar datos, pero en este curso se cubrirán dos de los formatos más comunes:
+ JSON (JavaScript Object Notation) y YAML (Yet Another Markup Language). Aquí tienes un resumen de los puntos clave:
+
+1. **JSON (JavaScript Object Notation):**
+   - JSON es el formato de serialización que se utilizará principalmente en este curso.
+   - Se usa el módulo json para convertir un objeto (en este caso, la lista de diccionarios llamada `people`) en formato JSON.
+   - El código utiliza `json.dump()` para serializar el objeto en un archivo JSON.
+
+   ```python
+   import json
+
+   with open('people.json', 'w') as people_json:
+       json.dump(people, people_json, indent=2)
+   ```
+
+   - El contenido del archivo generado se muestra como un ejemplo de formato JSON.
+
+2. **YAML (Yet Another Markup Language):**
+   - YAML tiene similitudes con JSON y es fácilmente comprensible por humanos.
+   - Se usa el método `yaml.safe_dump()` para serializar el objeto en formato YAML.
+
+   ```python
+   import yaml
+
+   with open('people.yaml', 'w') as people_yaml:
+       yaml.safe_dump(people, people_yaml)
+   ```
+
+   - Se muestra un ejemplo del contenido del archivo YAML generado.
+
+3. **Diferencias entre JSON y YAML:**
+   - Aunque los formatos pueden tener apariencias diferentes, ambos enumeran los nombres de los campos como parte del formato para que tanto 
+   los programas que analizan los datos como los humanos que los observan puedan comprenderlos.
+   - JSON se utiliza con frecuencia para transmitir datos entre servicios web, mientras que YAML se utiliza principalmente para almacenar 
+   valores de configuración.
+
+4. **Otros Formatos de Serialización:**
+   - Se mencionan brevemente otros formatos comunes de serialización como Python pickle, Protocol Buffers y XML.
+   - Cada uno de ellos tiene utilidades específicas en contextos particulares.
+
+En resumen, este fragmento proporciona una introducción a los formatos de serialización de datos JSON y YAML, resaltando su uso y 
+características distintivas. Además, menciona brevemente otros formatos comunes.
